@@ -4,9 +4,8 @@ import pandas as pd
 import math
 
 class SimilarityForest:
-    def __init__(self, nTrees, nTreeSamples, similarityFunc):
+    def __init__(self, nTrees, similarityFunc):
         self.__nTrees = nTrees
-        self.__nTreeSamples = nTreeSamples
         self.__similarityFunction = similarityFunc
         self.__trees = []
         self.__predictions = []
@@ -14,15 +13,10 @@ class SimilarityForest:
 
     def __generateSubset (self, trainDataset, classDataset):
         datasets = []
-        trainSubset = []
-        classSubset = []
         if self.__nTrees > 1:
-            for x in range(self.__nTreeSamples):
-                index = rd.randint(0, (len(trainDataset) -1))
-                trainSubset.append(trainDataset[index])
-                classSubset.append(classDataset[index])
-            datasets.append(trainSubset)
-            datasets.append(classSubset)
+            randomSample = rd.choices(range(len(trainDataset)), k=len(trainDataset))
+            datasets.append([trainDataset[i] for i in randomSample])
+            datasets.append([classDataset[i] for i in randomSample])
         else:
             datasets.append(trainDataset)
             datasets.append(classDataset)
