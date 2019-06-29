@@ -23,15 +23,23 @@
   <ItemGroup>
     <Compile Include="Data.py" />
     <Compile Include="DataConverter.py" />
+    <Compile Include="datasets\airline_tweets\__init__.py" />
     <Compile Include="datasets\heart\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="datasets\utils.py" />
     <Compile Include="datasets\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="heart_test.py" />
     <Compile Include="PracaMagisterska.py" />
     <Compile Include="SimilarityForest.py" />
+    <Compile Include="Transformations.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="datasets\" />

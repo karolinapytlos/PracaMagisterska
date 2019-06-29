@@ -4,9 +4,10 @@ import pandas as pd
 import math
 
 class SimilarityForest:
-    def __init__(self, nTrees, similarityFunc):
+    def __init__(self, nTrees, similarityFunc, nPairObjects = 1):
         self.__nTrees = nTrees
         self.__similarityFunction = similarityFunc
+        self.__nPairObjects = nPairObjects
         self.__trees = []
         self.__predictions = []
         self.__confusionMatrix = []
@@ -70,7 +71,7 @@ class SimilarityForest:
         for n in range(self.__nTrees):
             print(" ---- START TREE: ", n, " ---- ")
             treeSamples, treeClasses = self.__generateSubset(trainDataset, classDataset)
-            tree = Tree(treeSamples, treeClasses, self.__similarityFunction)
+            tree = Tree(treeSamples, treeClasses, self.__similarityFunction, self.__nPairObjects)
             tree.create_tree()
             self.__trees.append(tree.get_tree())
             print(" ---- END TREE: ", n, " ---- ")
@@ -121,10 +122,11 @@ class SimilarityForest:
 
 
 class Tree:
-    def __init__(self, dataset, labels, similarityFunc):
+    def __init__(self, dataset, labels, similarityFunc, nPairObjects):
         self.__dataset = dataset
         self.__labels = labels
         self.__similarityFunction = similarityFunc
+        self.__nPairObjects = nPairObjects
         self.__tree = []
         self.__countLeftNode = 0
         self.__countRightNode = 0
@@ -155,6 +157,55 @@ class Tree:
         return counter
 
 
+    def __get_split_point (self, dataset, labels):
+        split_points = []
+        for i in range(self.__nPairObjects):
+            distances = []
+
+            # select randomly item from every class
+            # item is type of tuple
+            # item 1 is index, item 2 is class value
+            labelesIndex = self.__randLabelIndex(labels)
+
+            randItems = []
+            for t in labelesIndex:
+                randItems.append(dataset[t[0]])
+
+            # calculate distance between items from dataset
+            for index, value in enumerate(dataset):
+                dist = self.__similarityFunction(value, randItems[1]) - self.__similarityFunction(value, randItems[0])
+                distances.append((index, dist))
+
+            distances = sorted(distances, key=lambda tup: tup[1])
+
+            ds = []
+            lb = []
+            for item in distances:
+                ds.append(dataset[item[0]])
+                lb.append(labels[item[0]])
+
+            gini = []
+            for index in range(len(lb) -1):
+                node1 = lb[:index+1]
+                node2 = lb[index+1:]
+                quality = self.__giniQuality(node1, node2)
+                gini.append(quality)
+
+            split_points.append({
+                "objectA": randItems[0],
+                "objectB": randItems[1],
+                "splitPoint": min(gini),
+                "distances": distances,
+                "ds": ds,
+                "lb": lb
+            })
+
+        if len(split_points) > 0:
+            return min(split_points, key = lambda x: x["splitPoint"])
+        else:
+            return None
+
+
     def __create (self, node):
         distances = []
         dataset = node["data"]
@@ -164,51 +215,25 @@ class Tree:
             self.__setNodeAsLeaf(node, labels[0])
             return
 
-        # select randomly item from every class
-        # item is type of tuple
-        # item 1 is index, item 2 is class value
-        labelesIndex = self.__randLabelIndex(labels)
+        split_point = self.__get_split_point(dataset, labels)
+        if split_point is None:
+            return
 
-        randItems = []
-        for t in labelesIndex:
-            randItems.append(dataset[t[0]])
+        distances = split_point["distances"]
+        ds = split_point["ds"]
+        lb = split_point["lb"]
+        splitPoint = split_point["splitPoint"]
 
-        # calculate distance between items from dataset
-        for index, value in enumerate(dataset):
-            dist = self.__similarityFunction(value, randItems[1]) - self.__similarityFunction(value, randItems[0])
-            distances.append((index, dist))
-
-        distances = sorted(distances, key=lambda tup: tup[1])
-
-        ds = []
-        lb = []
-        for item in distances:
-            ds.append(dataset[item[0]])
-            lb.append(labels[item[0]])
-
-        gini = []
-        for index in range(len(lb) -1):
-            node1 = lb[:index+1]
-            node2 = lb[index+1:]
-            quality = self.__giniQuality(node1, node2)
-            point = {
-                "index": index,
-                "gq": quality
-            }
-            gini.append(point)
-
-        splitPoint = min(gini, key = lambda x: x['gq'])
-
-        node["objectA"] = randItems[0]
-        node["objectB"] = randItems[1]
-        node["splitPoint"] = splitPoint["gq"]
+        node["objectA"] = split_point["objectA"]
+        node["objectB"] = split_point["objectB"]
+        node["splitPoint"] = splitPoint
 
         leftNodeData = []
         leftNodeLabels = []
         rightNodeData = []
         rightNodeLabels = []
         for index, item in enumerate(distances):
-            if item[1] > splitPoint['gq']:
+            if item[1] > splitPoint:
                 leftNodeData.append(ds[index])
                 leftNodeLabels.append(lb[index])
             else:
