@@ -4,9 +4,9 @@ from ..utils import DatasetLoader, Dataset, get_X_y
 class AirlineTweetsDataset(DatasetLoader):
 
     @staticmethod
-    def load_data(name='AirlineTweets'):
+    def load_data(file_name, name='AirlineTweets'):
         data = []
-        with open(AirlineTweetsDataset.get_dataset_file(['airline_tweets', 'tweets.txt']), "r", encoding="utf8") as f:
+        with open(AirlineTweetsDataset.get_dataset_file(['airline_tweets', file_name]), "r", encoding="utf8") as f:
             lines = f.readlines()
             for line in lines:
                 if "\t" in line:

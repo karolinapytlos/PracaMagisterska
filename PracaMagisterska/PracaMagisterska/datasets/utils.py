@@ -32,4 +32,11 @@ def get_X_y(data):
     vectorizer.fit(docs)
     integers_from_strings = [[vectorizer.vocabulary_.get(y.lower()) for y in re.sub(r'[.!,;?]', ' ', x).split() if
                               vectorizer.vocabulary_.get(y.lower()) is not None] for x in docs]
-    return integers_from_strings, [x[1] for x in data]
+
+    labels = [x[1] for x in data]
+    for index, item in enumerate(integers_from_strings):
+        if len(item) == 0:
+            del integers_from_strings[index]
+            del labels[index]
+
+    return integers_from_strings, labels

@@ -30,6 +30,7 @@ class Converter:
                         if value in labels_value:
                             itemLabel = value
                     if itemSequence is not None and itemLabel is not None:
+                        itemSequence = itemSequence.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
                         data.append((itemSequence, itemLabel))
                         break
         f.close()
@@ -85,7 +86,8 @@ class Converter:
                 labelValue = json_line[label_property_name]
                 if sequenceValue is not None and labelValue is not None:
                     if labelValue in labels_value:
-                        data.append((sequenceValue.strip(), labelValue))
+                        sequenceValue = sequenceValue.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
+                        data.append((sequenceValue, labelValue))
 
         return data
 
@@ -104,6 +106,7 @@ class Converter:
                         sequenceValue = sequenceValue[:-1]
                     if sequenceValue is not None and labelValue is not None:
                         if labelValue in labels:
+                            sequenceValue = sequenceValue.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
                             data.append((sequenceValue, labelValue))
 
         return data
@@ -116,7 +119,7 @@ class Converter:
             for line in lines:
                 line = line.replace('  ', ' ').replace('\n', '').split(delimiter)
                 if len(line) == 2:
-                    data.append((line[sequence_index], line[label_index]))
+                    data.append((line[sequence_index].strip(), line[label_index].strip()))
 
         return data
 
@@ -127,8 +130,10 @@ class Converter:
         for filename in files:
             with open(dictionary_path +"\\"+ filename, "r", encoding="utf-8") as f:
                 line = f.read()
-                data.append((line, label))
-                print("File ", filename, " has been readed.")
+                if line is not None:
+                    line = line.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
+                    data.append((line, label))
+                    print("File ", filename, " has been readed.")
 
         return data
 
@@ -156,7 +161,7 @@ class Converter:
         with open(file_path, "rb") as f:
             soup = BeautifulSoup(f, "xml")
             for tag in soup.find_all(sequence_element_name):
-                data.append((tag.string.replace('  ', ' ').replace('\n', '').strip(), label))
+                data.append((tag.string.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip(), label))
 
         return data
 

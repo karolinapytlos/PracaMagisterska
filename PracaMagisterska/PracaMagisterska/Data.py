@@ -35,10 +35,7 @@ from DataConverter import Converter
 
 #if data_train_pos is not None and data_train_neg is not None:
 #    data_train = Converter.merge_datasets(data_train_pos, data_train_neg)
-#    if data_train is not None:
-#        print("data_train: ", len(data_train))
-#        result = Converter.save_file(".\\datasets\\movie_review\\train_reviews.txt", data_train, '\t')
-#        print("File train_reviews.txt was saved: ", result)
+#    print("data_train: ", len(data_train))
 
 #data_test_pos = Converter.load_large_movie_review_dataset(r"D:\Zbiory danych\Large Movie Review Dataset\aclImdb\test\pos", "pos")
 #if data_test_pos is not None:
@@ -50,10 +47,14 @@ from DataConverter import Converter
 
 #if data_test_pos is not None and data_test_neg is not None:
 #    data_test = Converter.merge_datasets(data_test_pos, data_test_neg)
-#    if data_test is not None:
-#        print("data_test: ", len(data_test))
-#        result = Converter.save_file(".\\datasets\\movie_review\\test_reviews.txt", data_test, '\t')
-#        print("File test_reviews.txt was saved: ", result)
+#    print("data_test: ", len(data_test))
+
+#if data_train is not None and data_test is not None:
+#    data = Converter.merge_datasets(data_train, data_test)
+#    if data is not None:
+#        print("data: ", len(data))
+#        result = Converter.save_file(".\\datasets\\movie_review\\reviews.txt", data, '\t')
+#        print("File reviews.txt was saved: ", result)
 
 
 # Jeopardy! Questions
