@@ -1,6 +1,7 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 
 
+#SOURCE: https://cseweb.ucsd.edu/~jmcauley/datasets.html
 class ClothingFitDataset(DatasetLoader):
 
     @staticmethod

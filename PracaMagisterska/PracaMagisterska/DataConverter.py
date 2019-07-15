@@ -31,8 +31,9 @@ class Converter:
                             itemLabel = value
                     if itemSequence is not None and itemLabel is not None:
                         itemSequence = itemSequence.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
-                        data.append((itemSequence, itemLabel))
-                        break
+                        if itemSequence != '':
+                            data.append((itemSequence, itemLabel))
+                            break
         f.close()
 
         return data
@@ -166,6 +167,75 @@ class Converter:
         return data
 
 
+    def load_automotive (file_path):
+        data = []
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines =  [json.loads(line) for line in f]
+            for index, line in enumerate(lines):
+                properties = line.keys()
+                if "annotation" in properties:
+                    if line["annotation"] is not None:
+                        labelValue = line["annotation"]["label"][0]
+                sequenceValue = line["content"]
+                if labelValue is not None and sequenceValue is not None:
+                    if labelValue in ["automobile_industry", "not"]:
+                        sequenceValue = sequenceValue.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
+                        data.append((sequenceValue, labelValue))
+
+        return data
+
+
+    def load_company_review_sentence (file_path):
+        data = []
+        validLabels = ["PAY&BENEFITS", "WORKPLACE"]
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = [json.loads(line) for line in f]
+            for index, line in enumerate(lines):
+                labelValue = None
+                properties = line.keys()           
+                if "annotation" in properties:
+                    if line["annotation"] is not None:
+                        labels = line["annotation"]["labels"]
+                        if len(labels) > 0:
+                            result = Converter.find_object(validLabels, labels)
+                            if result is not None:
+                                labelValue = result
+                sequenceValue = line["content"]
+                if labelValue is not None and sequenceValue is not None:
+                    sequenceValue = sequenceValue.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
+                    data.append((sequenceValue, labelValue))
+
+        return data
+
+
+    def load_imdb_movie_genre (file_path):
+        data = []
+        validLabels = ["Action", "Romance"]
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = [json.loads(line) for line in f]
+            for index, line in enumerate(lines):
+                labelValue = None
+                properties = line.keys()           
+                if "annotation" in properties:
+                    if line["annotation"] is not None:
+                        labels = []
+                        ann_properties = line["annotation"].keys()
+                        if "label" in ann_properties:
+                            labels = line["annotation"]["label"]
+                        if "labels" in ann_properties:
+                            labels = line["annotation"]["labels"]
+                        if len(labels) > 0:
+                            result = Converter.find_object(validLabels, labels)
+                            if result is not None:
+                                labelValue = result
+                sequenceValue = line["content"]
+                if labelValue is not None and sequenceValue is not None:
+                    sequenceValue = sequenceValue.replace('  ', ' ').replace('\t', ' ').replace('\n', '').strip()
+                    data.append((sequenceValue, labelValue))
+
+        return data
+
+
     def merge_datasets (*args):
         dataset = []
         for arg in args:
@@ -189,3 +259,11 @@ class Converter:
                 return True
 
         return False
+
+    # if is exist any item from target list inside source list
+    def find_object (target_list, source_list):
+        for s_item in source_list:
+            for t_item in target_list:
+                if s_item == t_item:
+                    return t_item
+        return None

@@ -1,6 +1,7 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 
 
+#SOURCE: http://ai.stanford.edu/~amaas/data/sentiment/
 class MovieReviewsDataset(DatasetLoader):
 
     @staticmethod

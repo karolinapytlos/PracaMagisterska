@@ -1,6 +1,7 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 
 
+#SOURCE: http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
 class SmsSpamCollectionDataset(DatasetLoader):
 
     @staticmethod

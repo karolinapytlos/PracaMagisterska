@@ -1,0 +1,461 @@
+Automotive industry, all those companies and activities involved in the manufacture of motor vehicles, including most components, such as engines and bodies, but excluding tires, batteries, and fuel.	automobile_industry
+The industry’s principal products are passenger automobiles and light trucks, including pickups, vans, and sport utility vehicles.	automobile_industry
+Commercial vehicles (i.e., delivery trucks and large transport trucks, often called semis), though important to the industry, are secondary.	automobile_industry
+The design of modern automotive vehicles is discussed in the articles automobile, truck, bus, and motorcycle; automotive engines are described in gasoline engine and diesel engine.	automobile_industry
+The development of the automobile is covered in transportation, history of: The rise of the automobile.	automobile_industry
+The history of the automobile industry, though brief compared with that of many other industries, has exceptional interest because of its effects on 20th-century history.	automobile_industry
+Although the automobile originated in Europe in the late 19th century, the United States completely dominated the world industry for the first half of the 20th century through the invention of mass production techniques.	automobile_industry
+In the second half of the century the situation altered sharply as western European countries and Japan became major producers and exporters.	automobile_industry
+Although steam-powered road vehicles were produced earlier, the origins of the automotive industry are rooted in the development of the gasoline engine in the 1860s and ’70s, principally in France and Germany.	automobile_industry
+By the beginning of the 20th century, German and French manufacturers had been joined by British, Italian, and American makers.	automobile_industry
+Most early automobile companies were small shops, hundreds of which each produced a few handmade cars, and nearly all of which abandoned the business soon after going into it.	automobile_industry
+The handful that survived into the era of large-scale production had certain characteristics in common.	automobile_industry
+First, they fell into one of three well-defined categories: they were makers of bicycles, such as Opel in Germany and Morris in Great Britain; builders of horse-drawn vehicles, such as Durant and Studebaker in the United States; or, most frequently, machinery manufacturers.	automobile_industry
+The kinds of machinery included stationary gas engines (Daimler of Germany, Lanchester of Britain, Olds of the United States), marine engines (Vauxhall of Britain), machine tools (Leland of the United States), sheep-shearing machinery (Wolseley of Britain), washing machines (Peerless of the United States), sewing machines (White of the United States), and woodworking and milling machinery (Panhard and Levassor of France). One American company, Pierce, made birdcages, and another, Buick, made plumbing fixtures, including the first enameled cast-iron bathtub.	automobile_industry
+Two notable exceptions to the general pattern were Rolls-Royce in Britain and Ford in the United States, both of which were founded as carmakers by partners who combined engineering talent and business skill.	automobile_industry
+In the United States almost all of the producers were assemblers who put together components and parts that were manufactured by separate firms.	automobile_industry
+The assembly technique also lent itself to an advantageous method of financing.	automobile_industry
+It was possible to begin building motor vehicles with a minimal investment of capital by buying parts on credit and selling the finished cars for cash; the cash sale from manufacturer to dealer has been integral in the marketing of motor vehicles in the United States ever since.	automobile_industry
+European automotive firms of this period tended to be more self-sufficient.	automobile_industry
+The pioneer automobile manufacturer not only had to solve the technical and financial problems of getting into production but also had to make a basic decision about what to produce.	automobile_industry
+After the first success of the gasoline engine, there was widespread experimentation with steam and electricity.	automobile_industry
+For a brief period the electric automobile actually enjoyed the greatest acceptance because it was quiet and easy to operate, but the limitations imposed by battery capacity proved competitively fatal.	automobile_industry
+Especially popular with women, electric cars remained in limited production well into the 1920s.	automobile_industry
+One of the longest-surviving makers, Detroit Electric Car Company, operated on a regular basis through 1929.	automobile_industry
+Steam power, a more serious rival, was aided by the general adoption, after 1900, of the so-called flash boiler, in which steam could be raised rapidly.	automobile_industry
+The steam car was easy to operate because it did not require an elaborate transmission.	automobile_industry
+On the other hand, high steam pressures were needed to make the engine light enough for use in a road vehicle; suitable engines required expensive construction and were difficult to maintain.	automobile_industry
+By 1910 most manufacturers of steam vehicles had turned to gasoline power.	automobile_industry
+The Stanley brothers in the United States, however, continued to manufacture steam automobiles until the early 1920s.	automobile_industry
+As often happens with a new technology, the automotive industry experienced patent controversies in its early years.	automobile_industry
+Most notable were two long, drawn-out court cases in Britain and the United States, in each of which a promoter sought to gain control of the new industry by filing comprehensive patents.	automobile_industry
+In Britain the claim was rejected by the courts in 1901, five years after the patent application.	not
+In the United States there was a legal battle between Ford and the Association of Licensed Automobile Manufacturers over the Selden patent, which the association claimed as a basic patent on the gasoline-powered car.	automobile_industry
+In 1911 the courts held the patent “valid but not infringed” by Ford.	automobile_industry
+The main consequence of the decision was the formation of the predecessor of the Alliance of Automobile Manufacturers to supervise an agreement for cross-licensing patents, which was ratified in 1915.	automobile_industry
+The outstanding contribution of the automotive industry to technological advance was the introduction of full-scale mass production, a process combining precision, standardization, interchangeability, synchronization, and continuity.	automobile_industry
+Mass production was an American innovation.	automobile_industry
+The United States, with its large population, high standard of living, and long distances, was the natural birthplace of the technique, which had been partly explored in the 19th century.	automobile_industry
+Although Europe had shared in the experimentation, the American role was emphasized in the popular description of standardization and interchangeability as “the American system of manufacture.	automobile_industry
+” The fundamental techniques were known, but they had not previously been applied to the manufacture of a mechanism as complex as a motor vehicle (see work, history of the organization of).	automobile_industry
+The kind of interchangeability achieved by the “	not
+American system” was dramatically demonstrated in 1908 at the British Royal Automobile Club in London: three Cadillac cars were disassembled, the parts were mixed together, 89 parts were removed at random and replaced from dealer’s stock, and the cars were reassembled and driven 800 km (500 miles) without trouble.	automobile_industry
+Henry M. Leland, founder of the Cadillac Motor Car Company and the man responsible for this feat of showmanship, later enlisted the aid of a noted electrical engineer, Charles F. Kettering, in developing the electric starter, a significant innovation in promoting the acceptability of the gasoline-powered automobile.	automobile_industry
+The mass-produced automobile is generally and correctly attributed to Henry Ford, but he was not alone in seeing the possibilities in a mass market.	automobile_industry
+Ransom E. Olds made the first major bid for the mass market with a famous curved-dash Oldsmobile buggy in 1901.	automobile_industry
+Although the first Oldsmobile was a popular car, it was too lightly built to withstand rough usage.	automobile_industry
+The same defect applied to Olds’s imitators.	automobile_industry
+Ford, more successful in realizing his dream of “a car for the great multitude,” designed his car first and then considered the problem of producing it cheaply.	automobile_industry
+The car was the so-called Model T, the best-known motor vehicle in history.	automobile_industry
+It was built to be durable for service on the rough American country roads of that period, economical to operate, and easy to maintain and repair.	automobile_industry
+It was first put on the market in 1908, and more than 15 million were built before it was discontinued in 1927.	automobile_industry
+When the design of the Model T proved successful, Ford and his associates turned to the problem of producing the car in large volume and at a low unit cost.	automobile_industry
+The solution was found in the moving assembly line, a method first tested in assembling magnetos.	automobile_industry
+After more experimentation, in 1913 the Ford Motor Company displayed to the world the complete assembly-line mass production of motor vehicles.	automobile_industry
+The technique consisted of two basic elements: a conveyor system and the limitation of each worker to a single repetitive task.	automobile_industry
+Despite its deceptive simplicity, the technique required elaborate planning and synchronization.	automobile_industry
+The first Ford assembly line permitted only very minor variations in the basic model, a limitation that was compensated for by the low cost.	automobile_industry
+The price of the Model T touring car dropped from $950 in 1909 to $360 in 1916 and still lower to an incredible $290 in 1926.	automobile_industry
+By that time Ford was producing half of all the motor vehicles in the world.	automobile_industry
+Ford’s success inspired imitation and competition, but his primacy remained unchallenged until he lost it in the mid 1920s by refusing to recognize that the Model T had become outmoded.	automobile_industry
+More luxurious and better-styled cars appeared at prices not much higher than that of the Model T, and these were increasingly available to low-income purchasers through a growing used-car market.	automobile_industry
+In Britain, William R. Morris (later Lord Nuffield) undertook to emulate Ford as early as 1912, but he found British engineering firms reluctant to commit themselves to the large-scale manufacture of automotive parts.	automobile_industry
+Morris in fact turned to the United States for his parts, but these early efforts were cut short by World War I.	automobile_industry
+In the 1920s Morris resumed the production of low-priced cars, along with his British competitor Herbert Austin and André-Gustave Citroën and Louis Renault in France.	automobile_industry
+British manufacturers had to face the problem of a tax on horsepower, calculated on a formula based on bore and the number of cylinders.	automobile_industry
+The effect was to encourage the design of small engines that had cylinders with narrow bore and long stroke, in contrast to the wide-bore, short-stroke engines favoured elsewhere.	automobile_industry
+This design handicapped the sale of British cars abroad and kept production from growing.	automobile_industry
+It was not until 1934 that Morris Motors finally felt justified in installing a moving assembly line; the Hillman Company had preceded Morris in this by a year or two.	automobile_industry
+Although the appearance of mass production in the automotive industry coincided with the emergence of large-scale business organization, the two had originated independently.	automobile_industry
+They were related, however, and influenced each other as the industry expanded.	not
+Only a large firm could make the heavy investment in plant and tooling that the assembly line required, and Ford was already the largest single American producer when it introduced the technique.	automobile_industry
+The mass producer in turn enjoyed a cost advantage that tended to make it increasingly difficult for smaller competitors to survive.	automobile_industry
+There have been exceptions, but the trend has been consistent.	not
+General Motors Corporation (GM), which ultimately became the world’s largest automotive firm and the largest privately owned manufacturing enterprise in the world, was founded in 1908 by William C. Durant, a carriage manufacturer of Flint, Michigan.	automobile_industry
+In 1904 he assumed control of the ailing Buick Motor Company and made it one of the principal American producers.	automobile_industry
+Durant developed the idea for a combination that would produce a variety of models and control its own parts producers.	automobile_industry
+As initially formed, General Motors included four major vehicle manufacturers—Buick, Cadillac, Oldsmobile, and Oakland—and an assortment of smaller firms.	automobile_industry
+The combine ran into financial trouble in 1910 and was reorganized by a financial syndicate.	not
+A similar combination, the United States Motor Corporation, was formed in 1910, collapsed in 1912, and was reorganized as the Maxwell Motor Company.	automobile_industry
+General Motors survived.	automobile_industry
+A new reorganization took place after Durant, with backing by E.I. du Pont de Nemours and Company, regained control in 1916.	automobile_industry
+Durant, who had previously established the Chevrolet Motor Company, brought Chevrolet into GM in 1918.	automobile_industry
+At the end of World War I, Ford was the colossus, dominating the automotive scene with the Model T not only in the United States but also through branch plants throughout the world.	automobile_industry
+British Ford was the largest single producer in the United Kingdom.	automobile_industry
+GM was emerging as a potential major competitor in the United States.	automobile_industry
+No other automotive firms of comparable size existed.	automobile_industry
+During the next decade there was a striking transformation.	automobile_industry
+The depression of 1921 had far-reaching effects on the American automotive industry.	automobile_industry
+GM was plunged into another financial crisis.	automobile_industry
+Alfred P. Sloan became president of the corporation in 1923 and raised it to its unchallenged first place in the industry.	automobile_industry
+Among other steps, he gave GM a staff-and-line organization with autonomous manufacturing divisions, which facilitated management of a large corporate structure and became the model for other major automotive combinations.	automobile_industry
+Henry Ford also went through a crisis because the 1921 crash caught him involved in the construction of a large new plant (River Rouge) and in the process of buying out his stockholders.	automobile_industry
+Ford weathered the storm (though many of his dealers, unable to sell cars and not permitted to return them, went out of business), but the Ford Motor Company had reached its crest.	automobile_industry
+The third member of the “Big Three” automotive manufacturers in the United States was created at this same time.	automobile_industry
+When the Maxwell Motor Company failed in the 1921 depression, Walter P. Chrysler, formerly of General Motors, was called in to reorganize it.	automobile_industry
+It became the Chrysler Corporation in 1925 and grew to major proportions with the acquisition of the Dodge Brothers company in 1928.	automobile_industry
+When Ford went out of production in 1927 to switch from the Model T to the Model A (a process that took 18 months), Chrysler was able to break into the low-priced-car market with the Plymouth.	automobile_industry
+By 1929 the Big Three supplied three-fourths of the American market for motor vehicles; most of the remainder was divided among the five largest independents—Hudson, Nash, Packard, Studebaker, and Willys-Overland.	automobile_industry
+In less than 10 years the number of automobile manufacturers in the United States dropped from 108 to 44.	automobile_industry
+Some of the minor carmakers had technological or personal interests, including Nordyke and Marmon, makers of Marmon luxury cars, and E.L. Cord, who marketed front-wheel-drive cars between 1929 and 1937.	automobile_industry
+The depression years of the 1930s eliminated all but the largest independent manufacturers and increased still further the domination of the Big Three.	automobile_industry
+Motor vehicle production declined from a peak of more than five million in 1929 to a low of just over one million in 1932.	automobile_industry
+It rose again slowly but had not returned to the 1929 figure when World War II broke out.	not
+While these years were difficult economically, they saw some significant developments within the industry.	automobile_industry
+Greater emphasis was placed on style in passenger-car design, with the general trend in the direction of incorporating the body, bumpers, and mudguards into a single pattern of smoothly flowing lines.	automobile_industry
+A number of technical features came into general use: the V-8 engine, introduced by Ford in 1932; three-point engine suspension; freewheeling (permitting the car to coast freely when the accelerator was released); overdrive (a fourth forward speed); and, on a limited scale, automatic transmission.	automobile_industry
+The period from 1919 to 1939 also brought significant growth in automobile manufacturing in Europe, though on a considerably smaller scale than in the United States.	automobile_industry
+The European industry was moving in the same directions as the American industry, toward a mass market for motor vehicles, but it made slower progress for a variety of reasons: lower living standards with less purchasing power, smaller national markets, and more restrictions in tax and tariff policies.	automobile_industry
+Still, the same trend toward concentration was discernible.	not
+British automotive production rose from 73,000 in 1922 (both private and commercial vehicles) to 239,000 in 1929, while the number of producers declined from 90 to 41.	automobile_industry
+Three firms—Austin, Morris, and Singer—controlled 75 percent of the British market in 1929.	automobile_industry
+The apparent analogy to the American experience was temporary.	not
+British production had not yet reached the level at which the economies of scale gave the larger firms as commanding a lead as in the United States.	automobile_industry
+There were other factors that created a somewhat different situation.	not
+During the 1930s British automotive production continued to increase steadily, in contrast to American production, and so the smaller companies were not forced to compete for a shrinking market.	automobile_industry
+Output reached almost half a million in 1937, and at the end of the decade there were six major British producers instead of three: Morris, Austin, Standard, Rootes, Ford, and Vauxhall.	automobile_industry
+The last two represented entry by American firms.	not
+Vauxhall had been bought by GM in 1925; Ford had been in Britain since 1911, had lost ground in the 1920s, and had later recovered.	automobile_industry
+The Rootes Group, based on Hillman and Humber, was a combine formed by a family that had built a large automobile sales concern and then moved from sales to production.	automobile_industry
+The replacement of Singer by Standard was simply the rise of one company and the decline of another, as evidence that open competition could still change the structure of the British automotive industry.	automobile_industry
+In France three major firms—Peugeot, Renault, and Citroën—emerged in the 1920s.	automobile_industry
+Citroën accounted for 40 percent of French automotive production in 1925 but had reached that dominating position at the cost of financial stability.	automobile_industry
+When André Citroën died before the decade ended, his company came into the hands of Michelin Tire.	automobile_industry
+A new French firm, Simca, rose to prominence in the 1930s.	automobile_industry
+The German automobile industry suffered from the dislocation of World War I and Germany’s subsequent economic difficulties.	automobile_industry
+The major developments of the 1920s were the merger of Daimler and Benz in 1926, after the founders of those firms had died (their bitter rivalry for the distinction of being the inventor of the gasoline automobile made any such union during their lifetimes unthinkable), and the entry of General Motors onto the German scene through the acquisition of the Adam Opel company in 1929.	automobile_industry
+The Germans were ardent admirers of Henry Ford and his methods, which they termed Fordismus, but Ford never succeeded in becoming a power in the German automotive world.	automobile_industry
+During the 1930s the Nazi regime sought to emulate Ford by undertaking mass production of a low-priced car, the Volkswagen, but the onset of war interrupted this project.	automobile_industry
+Italian automobile manufacturers gained a reputation for highly engineered sports cars and racing cars, but Italy had no mass market and therefore achieved only small-scale production at that time.	automobile_industry
+During World War I the productive capacity of the automotive industry first demonstrated its military value.	automobile_industry
+Motor vehicles were used extensively for transport and supply.	automobile_industry
+In addition, automotive plants could readily be converted into facilities for manufacturing military equipment, including tanks and aircraft.	automobile_industry
+For all of the belligerents the conversion of automotive facilities was an afterthought, improvised after the beginning of hostilities, and the American industry, involved only for a short time, never fully utilized its capacity.	automobile_industry
+More preparation was made for using the resources of the various automotive industries as World War II approached.	automobile_industry
+The British government built “shadow factories” adjacent to their automotive plants, equipped to go into military production (principally aircraft) when war came, with managerial and technical personnel drawn from the automotive industry.	automobile_industry
+France attempted conversion, but belatedly and inefficiently.	not
+The German automotive industry, which built the military vehicles needed for blitzkrieg, was not fully converted to military production until 1943.	automobile_industry
+In the United States the preparation for industrial mobilization was negligible until 1940; in fact, there was no serious effort even to restrict civilian automobile production until after the attack on Pearl Harbor in December 1941.	automobile_industry
+Still, the American automotive industry represented such a concentration of productive capacity and skill that, once its resources had been harnessed to war production, its contribution was tremendous.	automobile_industry
+Between 1940 and 1945 automotive firms made almost $29 billion worth of military materials, a fifth of the country’s entire output.	automobile_industry
+The list included 2,600,000 military trucks and 660,000 jeeps, but production extended well beyond motor vehicles.	automobile_industry
+Automotive firms provided one-half of the machine guns and carbines made in the United States during the war, 60 percent of the tanks, all the armoured cars, and 85 percent of the military helmets and aerial bombs.	automobile_industry
+It had been assumed that automotive facilities could be readily converted for aircraft production, but this proved more difficult than anticipated.	automobile_industry
+Automobile assembly plants did not readily accommodate airframes, nor could an automobile engine factory be converted without substantial modification.	automobile_industry
+These problems were eventually resolved, and automobile companies contributed significantly to aircraft production.	automobile_industry
+Britain was better prepared to use the resources of its automotive industry, at that time the world’s second largest.	automobile_industry
+The shadow factories became operative, and Austin, Morris, Standard, Daimler, Ford, and Rootes participated in filling the wartime demand for aircraft and aircraft engines.	automobile_industry
+Leyland Motors and Vauxhall built tanks.	automobile_industry
+Lord Nuffield made a notable contribution to the production effort by establishing a system for repairing aircraft, employing the sales and service organization of Morris Motors, and it was subsequently extended to a large number of small contractors.	automobile_industry
+The automotive industries of the other belligerents were smaller in scale, and their facilities for armaments manufacture were proportionately greater than in the United States or Great Britain.	automobile_industry
+Consequently, the automotive firms in these countries were concerned chiefly with meeting the insatiable demand for vehicles.	automobile_industry
+The various Ford properties that came under German control, along with Volkswagen, which turned out the German equivalent of the jeep, were employed in this manner.	automobile_industry
+Renault, a tank manufacturer since World War I, built tanks for France and later for Germany.	automobile_industry
+After World War II there was a striking expansion of motor vehicle production.	automobile_industry
+During a 35-year period the total world output increased almost 10-fold.	not
+The most significant feature of this increase was that most of it occurred outside the United States.	not
+Although American production continued to grow, its share of world automotive production fell from about 80 percent of the total to 20 percent.	automobile_industry
+Among individual countries the United States was the leading producer until the recession of the early 1980s.	automobile_industry
+In 1980 Japan, which had had little automotive manufacturing before the war, became the leading producer, with the European Economic Community (EEC) ranking second.	automobile_industry
+The United States regained the lead in vehicle production in 1994, since by that time Japanese manufacturers were building more of their products in factories in their major overseas markets, such as the United States, in response to economic and political pressures in those markets.	automobile_industry
+At the end of World War II the American automobile industry had intact facilities, somewhat enlarged by construction for military needs.	automobile_industry
+There was also a great demand for automobiles.	automobile_industry
+This situation invited several attempts by newcomers to enter the industry, but all proved unsuccessful.	automobile_industry
+The most promising, Kaiser-Frazer Corporation, lasted some 10 years but lacked the financial, technical, and sales resources to compete when the automobile market returned to normal.	automobile_industry
+By the mid 1950s Kaiser-Frazer had stopped producing everything but Willys Jeeps, an operation that it had acquired by buying Willys-Overland.	automobile_industry
+The manufacture of Jeeps continued as a subsidiary of Kaiser Industries until 1970, when the division was sold to American Motors Corporation (AMC) in a transaction that gave Kaiser financial interest in AMC.	automobile_industry
+The trend of the automotive industry to mergers and large-scale organization, and to a situation in which each producer could affect but not control the market, continued unchecked.	automobile_industry
+In 1954 Nash and Hudson joined to form AMC.	automobile_industry
+The company enjoyed temporary prosperity in the late 1950s when it introduced the first American compact car, the Rambler, in response to growing imports of small foreign cars.	automobile_industry
+A merger of Studebaker and Packard in 1954 was less successful.	automobile_industry
+The new company stopped production in the United States in 1964 and in Canada two years later.	automobile_industry
+Declining sales and heavy financial losses pushed the Chrysler Corporation close to bankruptcy in the late 1970s.	automobile_industry
+Attempting to avert the company’s collapse, the U.S. government granted Chrysler $1.5 billion in loan guarantees.	automobile_industry
+In return Chrysler surrendered supervisory control to the government’s Chrysler Loan Guarantee Board.	automobile_industry
+By exercising such control, the U.S. government became a de facto partner of the country’s third largest automaker.	automobile_industry
+The government’s influence was short-lived as Chrysler, under the leadership of Lee A. Iacocca, returned to profitability and repaid its government loans in 1983, seven years early.	automobile_industry
+By the early 1980s the automotive industry in the United States was concentrated in four major firms—GM, Ford, Chrysler, and AMC—and one important manufacturer of commercial vehicles, International Harvester Company.	automobile_industry
+A few producers of specialized vehicles remained, along with an assortment of companies that made automotive parts and components.	automobile_industry
+Increasing competition from imported cars and from new manufacturing operations established by European and Japanese firms continued to reduce the share of the American market controlled by the four domestic manufacturers through the remainder of the 20th century.	automobile_industry
+Germany’s Volkswagen opened an assembly operation in the United States in the late 1970s but closed it a decade later.	automobile_industry
+Japan’s Nissan Motor Corporation established a plant in the early 1980s to build its popular small pickups and later added car production.	automobile_industry
+Another Japanese automaker, Honda Motor Company, followed with a car manufacturing operation adjacent to its motorcycle plant; it later added a second car facility in the United States and a car plant in Canada.	automobile_industry
+Japan’s Toyota Motor Corporation formed a joint venture with GM called New United Motor Manufacturing Incorporated, which built small cars for both Toyota and GM.	automobile_industry
+Toyota also opened two plants of its own in the United States—	automobile_industry
+one for cars and small vans and the other for pickup trucks and sport utility vehicles—and a car-making facility in Canada.	automobile_industry
+A number of other Japanese manufacturers opened plants in the United States as joint-venture operations.	automobile_industry
+Many of the Japanese-owned American plants were built in response to limitations imposed on exports of cars to the United States by Japan’s Ministry of International Trade and Industry.	automobile_industry
+The restrictions followed threats of sanctions by the United States in the wake of Chrysler’s near collapse and heavy losses by Ford and GM.	automobile_industry
+Called the Voluntary Restraint Agreement (VRA), it spelled out how many cars each Japanese producer could ship to the United States in a single year.	automobile_industry
+The VRA took effect in 1981 and was renewed annually through the early 1990s.	automobile_industry
+A similar agreement was in effect in Canada during the 1980s.	not
+In 1979 Renault of France acquired a 46 percent interest in AMC to increase its small presence in the United States and gain access to AMC’s line of popular Jeep vehicles.	automobile_industry
+Mounting financial pressures, however, prompted Renault to sell its AMC stake to a reinvigorated Chrysler in 1987.	automobile_industry
+Chrysler quickly acquired all outstanding AMC stock and made the company a division.	automobile_industry
+In 1998 Chrysler was merged with Germany’s Daimler-Benz AG, which then became DaimlerChrysler AG.	automobile_industry
+Technically, the decades after World War II had been marked by improvement and refinement rather than by important innovation.	automobile_industry
+Diesel engines were increasingly used on trucks and buses.	automobile_industry
+Automatic transmissions became virtually standard equipment for passenger cars, and power brakes and power steering found widespread acceptance, as did luxury features such as air-conditioning.	automobile_industry
+In the early 1960s Chrysler experimented with a gas turbine engine for passenger automobiles, but it had too many technical problems for general use.	automobile_industry
+Styling became increasingly important in automotive design as a marketing device.	automobile_industry
+The general trend in styling became established late in the 1920s when cars began to lose their square, boxlike lines and to develop flowing curves.	automobile_industry
+In time the new design encompassed both body and chassis, integrating such formerly separate features as mudguards, running boards, and bumpers.	automobile_industry
+A combination of pressures made American cars of the 1950s high-powered and ornate, with extravagant use of chrome and exaggerated tail fins; these features were abandoned when the public found the simpler lines of imported cars more attractive.	automobile_industry
+In Europe motor vehicles were recognized as an export item that could help restore war-shattered economies.	automobile_industry
+Britain, for example, earmarked more than half of its automotive output for export and restricted domestic purchases for several years after the war.	automobile_industry
+In addition, the horsepower tax was abandoned to enable British manufacturers to build profitably for the world market.	automobile_industry
+The most popular British designs (excluding specialized luxury vehicles such as the Rolls-Royce) continued to be lightweight cars, including several models with an ingenious front-wheel drive.	automobile_industry
+The trend to consolidation led in 1952 to the merger of Morris and Austin to form the British Motor Corporation, Ltd., a combine that accounted for about two-fifths of Britain’s motor vehicle production.	automobile_industry
+Another British combine was formed around Leyland Motors, which had grown into the country’s largest manufacturer of commercial vehicles and became a power in the passenger-car field by acquiring Standard-Triumph and Sunbeam in the 1950s.	automobile_industry
+Leyland and the British Motor Corporation united in 1968 as the British Leyland Motor Corporation (later British Leyland Ltd. and, after 1978, BL Ltd.); this move, sanctioned by the government, was intended to forestall possible American domination of the British automobile industry.	automobile_industry
+Except for Rolls-Royce, whose automobile production was only a very small part of the company’s business, British automobile output was then largely controlled by four firms: British Leyland, Ford, Vauxhall, and Rootes, which came under Chrysler control in 1967 but was sold off to France’s Peugeot-Citroën in 1978.	automobile_industry
+When British Leyland had financial difficulties in the early 1970s, it was taken over by the government.	automobile_industry
+In the 1980s the remaining parts of BL, which by then was focused on building Jaguar, Mini, and Rover cars and Land Rover sport utility vehicles and commercial trucks, became the Rover Group.	automobile_industry
+Eventually Jaguar regained profitability, and the British government sold off the company through a public stock offering.	automobile_industry
+The remaining Rover/Mini operations were acquired by British Aerospace Corporation.	automobile_industry
+Rover then entered into a cooperative venture with Japan’s Honda in which cars of Honda design were built at Rover plants for sale in Britain and other European countries under the Rover and Honda brands.	automobile_industry
+A small number also were exported to the United States under the Sterling name.	automobile_industry
+Eventually Honda became dissatisfied with the venture, and British Aerospace sold the Rover/Mini operations to BMW of Germany in 1994.	automobile_industry
+In 2000 BMW sold the Land Rover segment to Ford, which had acquired the stock of Jaguar in 1989, while its Rover cars segment was spun off to a British consortium and became MG Rover Group Ltd. BMW retained the profitable Mini operations.	automobile_industry
+In the late 1990s Britain’s Rolls-Royce Motor Cars, then owned by Vickers PLC, became the subject of a bidding war in which Germany’s Volkswagen emerged as the owner of the company’s Bentley brand and all of its manufacturing facilities; BMW emerged as the owner of the Rolls-Royce brand with respect to cars, effective at the end of 2002.	automobile_industry
+The post-World War II revival of the German automobile industry from almost total destruction was a spectacular feat, with most emphasis centring on the Volkswagen.	automobile_industry
+At the end of the war the Volkswagen factory and the city of Wolfsburg were in ruins.	automobile_industry
+Restored to production, in a little more than a decade the plant was producing one-half of West Germany’s motor vehicles and had established a strong position in the world market.	automobile_industry
+Breaking away from what had become standard design, the Volkswagen used a four-cylinder air-cooled engine at the rear of the car.	automobile_industry
+It also dispensed with the annual model change that had become customary with other automobile manufacturers.	automobile_industry
+Although the company had been founded by the German government, in the 1960s the government divested itself of 60 percent of its interest by selling stock to the public, an unusual case of denationalization in an era when nationalization of industry was far more common.	not
+In the same decade, Volkswagen acquired Auto Union, which evolved into its Audi luxury car segment.	automobile_industry
+In the late 1960s BMW rose from a builder of small, oddly styled Isetta cars and motorcycles into one noted for high-priced passenger vehicles and premium motorcycles.	automobile_industry
+Opel became the base for the European operations of General Motors, and by the 1990s it supplied much of the small-car engineering expertise for GM operations around the world.	automobile_industry
+Prior to its merger with Chrysler Corporation in 1998, Daimler-Benz had developed diversified interests ranging from trains to aerospace products.	automobile_industry
+Fiat (Fabbrica Italiana Automobili Torino), a firm founded in 1899 but without a mass market until the 1950s, dominated Italian automotive production.	automobile_industry
+The French industry was centred on Renault, Peugeot, Citroën, and Simca.	automobile_industry
+Renault was nationalized at the end of World War II, and it became a public corporation in the 1990s.	automobile_industry
+Citroën was acquired in 1976 by independently owned Peugeot to form PSA Peugeot-Citroën.	automobile_industry
+Simca became a Chrysler property in 1958 but was sold to Peugeot in the late 1970s.	automobile_industry
+Although Sweden was a relatively small producer, Swedish builders Saab and Volvo became important factors in the world market during the 1960s and ’70s.	automobile_industry
+Their car operations were acquired in the 1980s and ’90s by General Motors and Ford, respectively.	automobile_industry
+The most spectacular increases in automotive production after World War II occurred in Japan.	automobile_industry
+From a negligible position in 1950, Japan in 30 years moved past West Germany, France, Great Britain, and the United States to become the world’s leading automotive producer.	automobile_industry
+Steadily growing export sales of Japan’s small, fuel-efficient cars played a major role in this achievement.	automobile_industry
+During the late 1970s and early ’80s, Japan’s principal automakers—Toyota, Nissan, Honda, and Tōyō Kōgyō (later Mazda)—enjoyed impressive export gains in North American and western European markets.	automobile_industry
+These companies as well as Mitsubishi, Isuzu, Fuji, and Suzuki later opened manufacturing plants in major markets outside Japan to ease trade tensions and increase their competitiveness as the value of Japan’s currency soared.	automobile_industry
+By the 1980s Japan’s carmakers were seen as the models for others to emulate, especially for their “just-in-time”	automobile_industry
+method of delivering components to the assembly plants (see Consolidation, below) and the use of statistical process controls for enhancing vehicle quality, which ironically had been developed in the 1950s by an American but rejected at the time by American manufacturers.	automobile_industry
+In the 1990s the Japanese economy suffered a severe and prolonged recession, and the complicated interlocking relationships and cross-ownerships between Japanese automakers and their major component manufacturers and banks imposed severe financial hardship.	automobile_industry
+Ford and GM increased their financial stakes in Mazda and Isuzu, respectively, with Ford taking operative control of Mazda in 1996.	automobile_industry
+At the end of the 20th century, many Japanese automakers and several major component manufacturers were either controlled by or had joint operations with non-Japanese firms.	automobile_industry
+Renault, for example, held a controlling interest in Nissan, while GM owned 20 percent of Fuji and was involved in a cooperative venture with Suzuki.	automobile_industry
+DaimlerChrysler had a controlling interest in Mitsubishi.	automobile_industry
+In a span of 20 years beginning in the 1970s, South Korea’s automotive industry rose from a small government-controlled parochial industry to a significant place in the world market.	automobile_industry
+Three major companies—Hyundai Motor Company, Kia Motors Corporation, and Daewoo Motor Corporation—accounted for about 90 percent of the South Korean market, while the remainder was split among two minor producers and imports.	automobile_industry
+Hyundai, the country’s dominant automaker, produced cars, light trucks, and commercial trucks and buses; it was part of the larger Hyundai Corporation, which had interests ranging from construction to shipbuilding.	automobile_industry
+Kia, South Korea’s second largest automaker, was acquired by Hyundai in 1999.	automobile_industry
+Daewoo, owned by the Daewoo Group conglomerate, entered the automobile field on a large scale in the 1980s and had won nearly a fifth of the market before entering into financial receivership and reorganization in 2000.	automobile_industry
+At the start of the 21st century, Daewoo appeared likely to become the first major South Korean company to be taken over by a foreign firm.	automobile_industry
+The modern automotive industry is huge.	automobile_industry
+In the United States it is the largest single manufacturing enterprise in terms of total value of products, value added by manufacture, and number of wage earners employed.	automobile_industry
+One of every six American businesses is dependent on the manufacture, distribution, servicing, or use of motor vehicles; sales and receipts of automotive firms represent more than one-fifth of the country’s wholesale business and more than one-fourth of its retail trade.	automobile_industry
+For other countries these proportions are somewhat smaller, but Japan, South Korea, and the countries of western Europe have been rapidly approaching the level in the United States.	not
+The trend toward consolidation in the industry has already been traced.	automobile_industry
+In each of the major producing countries the output of motor vehicles is in the hands of a few very large firms, and small independent producers have virtually disappeared.	automobile_industry
+The fundamental cause of this trend is mass production, which requires a heavy investment in equipment and tooling and is therefore feasible only for a large organization.	automobile_industry
+Once the technique is instituted, the resulting economies of scale give the large firm a commanding advantage, provided of course that the market can absorb the number of vehicles that must be built to justify the investment.	automobile_industry
+Although the precise numbers required are difficult to determine, the best calculations, considering both the assembly operation and the stamping of body panels, place the optimum output at between 200,000 and 400,000 cars per year for a single plant.	automobile_industry
+Increasingly stringent and costly regulations aimed at correcting environmental damage due to the rising number of vehicles on the road also have been a factor in the move toward consolidation.	automobile_industry
+The structural organization of these giant enterprises, despite individual variation, resembles the pattern first adopted by General Motors in the 1920s.	automobile_industry
+There is a central organization with an executive committee responsible for overall policy and planning.	not
+The operating divisions are semiautonomous, each reporting directly to the central authority but responsible for its own internal management.	automobile_industry
+In some situations the operating divisions even compete with each other.	automobile_industry
+The Ford Motor Company was consciously reorganized on the GM pattern after World War II; other American automotive firms have similar structures.	automobile_industry
+In addition, the largest producers decentralize their manufacturing operations by means of regional assembly plants.	automobile_industry
+These permit the central factory to ship frames and components rather than complete automobiles to the areas served by the assembly plants, effecting substantial savings in transportation costs.	automobile_industry
+This system was developed for the Ford company in 1911.	automobile_industry
+Some alteration of that principle took place in the 1980s and ’90s as Japanese firms built new plants around the world and American and European manufacturers adopted, to varying degrees, the Japanese “just-in-time” inventory method.	automobile_industry
+Rather than stockpiling a large number of parts at the assembly plant or shipping all the parts from central locations, automakers have yielded the manufacture of many noncritical components (such as seats and wheel assemblies) to independent suppliers to make the pieces at small facilities close to the assembly plants.	automobile_industry
+The components are often assembled into larger groups of parts or modules (a complete instrument panel, for example) and sent to the assembly plant in the exact sequence and at the exact time needed.	automobile_industry
+The automotive industry’s immense resources in production facilities and technical and managerial skills have been devoted predominantly to the building of motor vehicles, but there has been a consistent and strong incentive to extend into related products and occasionally into operations whose relationship to automobiles is remote.	automobile_industry
+The Ford Motor Company, for example, once manufactured tractors and made the famous Ford Trimotor all-metal transport airplane in the late 1920s and early ’30s.	automobile_industry
+GM manufactured refrigerators and diesel-powered railway locomotives.	automobile_industry
+By the end of the 20th century, however, Ford and GM had divested themselves of most of their nonautomotive operations and had spun off the majority of their automotive component-making divisions into separate stock companies—Delphi Automotive Systems in the case of General Motors and Visteon Automotive in the case of Ford.	automobile_industry
+In Europe, but to a lesser extent, automakers also divested noncore operations, while depressed economic conditions in Japan forced auto companies there to begin divorcing themselves from nonautomotive and components companies in which they had long held interests.	automobile_industry
+By the late 1990s the trend was toward more international consolidation of core automotive operations.	automobile_industry
+The process of putting a new car on the market has become largely standardized.	automobile_industry
+If a completely new model is contemplated, the first step is a market survey.	automobile_industry
+Since there may be an interval of five years between this survey and the appearance of the new car in the dealers’ showrooms, there is a distinct element of risk, as illustrated by the Ford Motor Company’s Edsel of the late 1950s.	automobile_industry
+(Market research had indicated a demand for a car in a relatively high price range, but, by the time the Edsel appeared, both public taste and economic conditions had changed.)	automobile_industry
+Conferences then follow for engineers, stylists, and executives to agree on the basic design.	automobile_industry
+The next stage is a mock-up of the car, on which revisions and refinements can be worked out.	automobile_industry
+Because of the increasingly competitive and international nature of the industry, manufacturers have employed various means to shorten the time from conception to production to less than three years in many cases.	automobile_industry
+This has been done at GM, for example, by incorporating vehicle engineers, designers, manufacturing engineers, and marketing managers into a single team responsible for the design, engineering, and marketing launch of the new model.	automobile_industry
+Automakers also involve component manufacturers in the design process to eliminate costly time-consuming reengineering later.	automobile_industry
+Often the component maker is given full responsibility for the design and engineering of a part as well as for its manufacture.	automobile_industry
+The bulk of the world’s new cars come from the moving assembly line introduced by Ford, but the process is much more refined and elaborated today.	automobile_industry
+The first requisite of this process is an accurately controlled flow of materials into the assembly plants.	automobile_industry
+No company can afford either the money or the space to stockpile the parts and components needed for any extended period of production.	automobile_industry
+Interruption or confusion in the flow of materials quickly stops production.	automobile_industry
+Ford envisioned an organization in which no item was ever at rest from the time the raw material was extracted until the vehicle was completed—a dream that has not yet been realized.	automobile_industry
+The need for careful control over the flow of materials is an incentive for automobile firms to manufacture their own components, sometimes directly but more often through subsidiaries.	automobile_industry
+Yet complete integration does not exist, nor is it desirable.	automobile_industry
+Tires, batteries, and dashboard instruments are generally procured from outside sources.	automobile_industry
+In addition, and for the same reasons, the largest companies support outside suppliers even for items of in-house manufacture.	automobile_industry
+First, it may be more economical to buy externally than to provide additional internal facilities for the purpose.	automobile_industry
+Second, the supplier firm may have special equipment and capability.	automobile_industry
+Third, the outside supplier provides a check on the costs of the in-house operation.	automobile_industry
+American companies rely more than others on independent suppliers.	not
+Production of a new model also calls for elaborate tooling, and the larger the output, the more highly specialized the tools in which the manufacturer is willing to invest.	automobile_industry
+For example, it is expensive to install a stamping press exclusively to make a single body panel for a single model, but, if the model run reaches several hundred thousand, the cost is amply justified.	automobile_industry
+The assembly process itself has a quite uniform pattern throughout the world.	automobile_industry
+As a rule, there are two main assembly lines, body and chassis.	automobile_industry
+On the first the body panels are welded together, the doors and windows are installed, and the body is painted and trimmed (with upholstery, interior hardware, and wiring).	automobile_industry
+On the second line the frame has the springs, wheels, steering gear, and power train (engine, transmission, drive shaft, and differential) installed, plus the brakes and exhaust system.	automobile_industry
+The two lines merge at the point at which the car is finished except for minor items and necessary testing and inspection.	automobile_industry
+A variation on this process is “unitized” construction, whereby the body and frame are assembled as a unit.	automobile_industry
+In this system the undercarriage still goes down the chassis line for the power train, front suspension, and rear axle, to be supported on pedestals until they are joined to the unitized body structure.	automobile_industry
+Most passenger vehicles today are manufactured by the unitized method, and most trucks and commercial vehicles still employ a separate frame.	automobile_industry
+Assembly lines have been elaborately refined by automatic control systems, transfer machines, computer-guided welding robots, and other automated equipment, which have replaced many manual operations when volume is high.	automobile_industry
+Austin Motors in Britain pioneered with its automatic transfer machines in 1950.	automobile_industry
+The first large-scale automated installation in the United States was a Ford Motor Company engine plant that went into production in 1951.	automobile_industry
+A universal form of automatic control has used computers to schedule assembly operations so that a variety of styles can be programmed along the same assembly line.	automobile_industry
+Customers can be offered wide choices in body styles, wheel patterns, and colour combinations.	automobile_industry
+Mass production implies mass consumption, which in turn requires an elaborate distributive organization to sell the cars and to develop confidence among customers that adequate service will be available.	automobile_industry
+In the early days of the industry, cars were sold directly from the factory or through independent dealers, who might handle several different makes.	automobile_industry
+Many bicycle manufacturers simply used their existing sales outlets when they added horseless carriages to their line.	automobile_industry
+When sales in large quantities became the objective, however, more elaborate and better organized techniques of distribution became essential.	automobile_industry
+In the United States the restricted franchise dealership became the uniform and almost exclusive method of selling new cars.	automobile_industry
+In this system, dealers may sell only the particular make of new car specified in their franchise, must accept a quota of cars specified by the manufacturer, and must pay cash on delivery.	automobile_industry
+In return the dealers receive some guarantee of sales territory and may be assisted in various ways by the manufacturer—financing or aid in advertising, for example.	automobile_industry
+Contracts also specify that dealers must maintain service facilities according to standards approved by the manufacturer.	automobile_industry
+Seemingly weighted in favour of the manufacturer, the system has been subjected to periodic dealer complaints, producing state legislation and a federal statute in 1956 to protect dealers from arbitrary actions by manufacturers.	automobile_industry
+Yet dealers have never been united in these attitudes, and no effective substitute for the restricted franchise has yet been found.	automobile_industry
+On the contrary, it is becoming the general practice in other parts of the world where large-scale markets for motor vehicles have developed.	automobile_industry
+Attempts by automakers in the 1990s to move away from the traditional franchised dealer network to direct selling via the Internet met strong resistance in the United States.	automobile_industry
+American dealers enlisted the help of state governments in enacting prohibitions of this practice (and in blocking attempts by automakers to own dealers through subsidiary corporations).	automobile_industry
+In markets outside the United States, principally in Europe and South America, manufacturers sell directly to consumers via the Internet in limited quantities.	automobile_industry
+The market in used cars is an important part of the distribution system for motor vehicles in all countries with a substantial motor vehicle industry because it affects the sale and styling of new cars.	automobile_industry
+The institution of the annual model was adopted in the United States during the 1920s to promote new-car sales in the face of used-car competition.	automobile_industry
+The new model must have enough changes in styling or engineering to persuade prospective buyers that it is indeed an improvement.	automobile_industry
+At the same time, it must not be so radically different from its predecessors as to give the buyer doubts about its resale potential.	automobile_industry
+Like all machinery, motor vehicles wear out.	automobile_industry
+Some become scrap metal to feed steel furnaces; some go to wrecking yards where usable parts are salvaged.	automobile_industry
+Throughout the world, however, the disposal of discarded motor vehicles has become a problem without a completely satisfactory solution.	automobile_industry
+In many areas, landscapes are disfigured by abandoned wrecks or unsightly automobile graveyards.	automobile_industry
+Spurred by European legislation requiring automakers to take back all of their end-of-life-cycle vehicles beginning in 2007, manufacturers worldwide have begun engineering new products with the complete recycling of components in mind.	automobile_industry
+At the same time, they have used more and different recycled material in new vehicles.	automobile_industry
+For example, old bumper covers have been recycled into fender liners or battery trays for new cars.	automobile_industry
+Although the automotive industry has long been multinational in its organization and operation, beginning in the 1980s and accelerating in the late 1990s, it has established a trend toward international consolidation.	automobile_industry
+Larger, more financially secure firms buy controlling interest in financially troubled ones, usually because the weaker firm manufactures a highly prized product, has access to markets that the larger company does not, or both.	automobile_industry
+For example, Chrysler, as discussed above, acquired AMC in 1987 for access to AMC’s Jeep vehicles and in 1998 was itself merged with Daimler-Benz, which sought Chrysler’s expertise in high-volume manufacturing and design techniques.	automobile_industry
+Recognizing its need to penetrate closed markets in Japan and South Korea, DaimlerChrysler in 2000 took a controlling 34 percent interest in Mitsubishi Motors Corporation and signed a cooperative venture in trucks with Hyundai Motor Company.	automobile_industry
+General Motors bought a 50 percent interest in Sweden’s Saab in 1989 and acquired the remainder 10 years later; in 2000 it took a 20 percent stake in Japan’s Fuji Heavy Industries to have access to the all-wheel-drive technology used in Fuji’s Subaru vehicles.	automobile_industry
+In 1999 Ford bought the passenger car operations of Sweden’s AB Volvo, and in 2000 it bought Britain’s Land Rover operations from BMW.	automobile_industry
+The most promising markets for motor vehicles have traditionally been developed countries with the purchasing power to create a demand for automobiles; these have included North American and European countries as well as Australia, New Zealand, South Africa, and Japan.	automobile_industry
+Since 1950 there has been a significant shift in market prospects, however, as developing countries have shown greater growth in vehicle registrations than the highly developed countries.	automobile_industry
+Consequently, there has been an intensification of both assembly and distribution in parts of the world not previously important in the automotive industry.	automobile_industry
+The great bulk of this production is assembly, done in plants affiliated with and usually operated by American, European, Japanese, or South Korean automotive firms.	automobile_industry
+In order to stimulate their own automotive industries, most developing countries have tariff policies that make imported cars prohibitively expensive and, in addition, have requirements that a substantial portion of the components used in local assembly plants be of domestic origin.	automobile_industry
+A certain percentage of local ownership, public or private, is also a normal requirement.	automobile_industry
+The rest of the financing and most of the initial managerial and technical skill come from the parent company.	automobile_industry
+In the 1990s China attracted the attention of the world’s major automotive companies.	automobile_industry
+Somewhat relaxed governmental controls on private ownership and the consequent rise of entrepreneurial enterprises provided a burgeoning market in China for automobile ownership by individuals.	automobile_industry
+This potential, plus local-component requirements, led to the establishment by automakers and component manufacturers of complete manufacturing facilities in China rather than limited local assembly operations.	automobile_industry
+The automotive industry has become a vital element in the economy of the industrialized countries—motor vehicle production and sales are one of the major indexes of the state of the economy in those countries.	automobile_industry
+For such countries as the United Kingdom, Japan, France, Italy, Sweden, Germany, and South Korea, motor vehicle exports are essential to the maintenance of healthy international trade balances.	automobile_industry
+The effect of motor vehicle manufacturing on other industries is very great.	automobile_industry
+Almost one-fifth of American steel production and nearly three-fifths of its rubber output go to the automotive industry, which is also the largest single consumer of machine tools.	automobile_industry
+Moreover, the special requirements of automotive mass production have had a profound influence on the design and development of highly specialized machine tools and have stimulated technological advances in petroleum refining, steelmaking, paint and plate-glass manufacturing, and other industrial processes.	automobile_industry
+The indirect effects are also considerable through the many auto-related businesses, such as motor freight operators and highway construction firms.	automobile_industry
+In addition, truck transportation has grown steadily throughout the world.	automobile_industry
+Before the advent of the motor vehicle, roads in most parts of the world were generally poor.	automobile_industry
+The available methods of road transport were so costly and inefficient that, unless there were special considerations such as military movements, it was not worthwhile to maintain roads for other than local traffic.	automobile_industry
+The general use of automobiles created a strong demand for better highways.	automobile_industry
+The first response was to provide for the improvement of existing road networks.	automobile_industry
+Experience subsequently demonstrated that roads for automobile traffic needed to be differentiated functionally, depending on whether they were intended for through traffic or local traffic.	automobile_industry
+Main arteries are best designed as freeways (motorways, autostrade, or Autobahnen)—i.e., divided highways with complete control of access and no intersections at grade.	automobile_industry
+A historian has said that Henry Ford freed common people from the limitations of their geography.	automobile_industry
+The statement cogently summarizes the social transformations still proceeding throughout the world as a result of the motor vehicle.	automobile_industry
+It has created mobility on a scale never known before, and the total effect on living habits and social customs is still incalculable.	automobile_industry
+The automobile has radically changed urban life by accelerating the outward expansion of population into the suburbs and beyond.	automobile_industry
+As with other automobile-related phenomena, the trend is most conspicuous in the United States but is rapidly appearing elsewhere.	automobile_industry
+The decentralizing trend is accentuated by the fact that highway transportation encourages business and industry to move outward to sites where land is cheaper, where access by car and truck is easier than in crowded cities, and where space is available for the one-story structures that permit optimum use of modern materials-handling techniques.	automobile_industry
+Yet the effect on rural life has been, if anything, more pronounced than the effect on cities.	automobile_industry
+In the days of horse-drawn transport, the economical limit of wagon transportation was 15–25 km (about 10–15 miles); any community or individual farm more than 25 km from a railroad or navigable waterway was isolated from the mainstream of economic and social life.	automobile_industry
+Motor vehicles and paved roads have narrowed much of the gap between rural and urban life.	automobile_industry
+Farmers can ship easily and economically by truck and can drive to town when convenient.	automobile_industry
+In addition, such institutions as regional schools and hospitals are now accessible by bus and car.	automobile_industry
+It would be impossible to list all of the specific effects of motor vehicle production, but two are especially illustrative.	automobile_industry
+First, the marketing of automobiles has stimulated a great expansion in the use of credit.	automobile_industry
+Installment buying existed before the automobile but in a limited scope.	automobile_industry
+The technique was introduced into the American automobile industry in 1916 by manufacturers of medium-priced cars to help meet the competition of the low-priced Model T. It became a universal practice in nearly all countries in the purchase of motor vehicles, and it accustomed people to buying other durable consumer goods in the same way.	automobile_industry
+Second, there has been a striking development of businesses such as drive-in and drive-through eating establishments and of commercial developments, such as shopping malls, that are designed to be accessed primarily by car.	automobile_industry
+In both urban and rural areas after World War II, the automobile is credited with having caused drastic changes in the sexual values of young people, who found in it a privacy not formerly attainable.	automobile_industry
+Recreational travel	not
+One of the conspicuous effects of the automobile has been to permit nearly everyone in the automotive countries to travel for recreation.	automobile_industry
+The motor vehicle allows for such auxiliary devices as trailers (called caravans in Europe), campers, trailers for boats and off-road vehicles, and bicycle and ski racks, which broaden the scope of recreational opportunities.	automobile_industry
+The mass use of motor vehicles was bound to have some unforeseen and undesirable consequences, of which three can be singled out: traffic congestion, air pollution, and highway accidents.	automobile_industry
+The approach to each of these problems illustrates a common propensity to blame the technology, rather than the way in which the technology has been used.	not
+City streets were congested long before the automobile existed, but the problem has been compounded enormously by the masses of motor vehicles that enter or leave cities at peak traffic hours.	automobile_industry
+The constantly growing number of automobiles throughout the world adds to the difficulty of finding remedies for congestion.	automobile_industry
+The heart of the problem is that few city street systems have been designed for automobile traffic.	automobile_industry
+Reliable estimates are that some two-thirds of the vehicles in central business districts are only passing through and should have been routed on circumferential highways.	automobile_industry
+Remedying this situation is difficult and expensive.	not
+It calls for modern highways to provide both ready access into downtown areas and ways to avoid them.	automobile_industry
+Programs for this purpose encounter vigorous opposition, frequently justified, on the ground that building freeways in cities disrupts neighbourhoods and destroys scenic or historic areas.	automobile_industry
+The widespread use of automobiles for business travel has also led in many cities to a decline in public transit systems, and the need to develop and use mass transit has been much discussed.	automobile_industry
+Given the trend toward dispersal of people and businesses in urban areas, it seems doubtful that mass transit will appreciably diminish motor vehicle traffic.	automobile_industry
+Still, in most cities, bus systems can provide the needed capacity for public transportation and are the most economical way of doing so.	automobile_industry
+Atmospheric pollution antedates the automobile, but the concentration of many thousands of motor vehicles in large cities has given the problem a new dimension.	automobile_industry
+Automobile exhaust commonly contributes half the atmospheric pollutants in large cities and even more in cities where atmospheric and topographic conditions are peculiarly conducive to smog formation.	automobile_industry
+In the 1960s federal and state legislation in the United States required the installation of controls on motor vehicles to restrict the emission of pollutants (see emission-control systems).	automobile_industry
+At the end of the 20th century, many scientists believed that emissions from motor vehicles, industrial processes, and power plants were leading to a buildup of carbon dioxide in the atmosphere, thus trapping additional heat and raising Earth’s temperature with potentially disastrous long-term results (see greenhouse effect).	automobile_industry
+Although not universally accepted, the theory of led governments in many major automotive countries to enact legislation requiring a significant increase in motor vehicle fuel economy, thereby reducing the output of carbon dioxide.	automobile_industry
+Many automobile manufacturers also have undertaken development of alternative, less-polluting power sources, such as fuel cells that convert hydrogen (derived from gasoline, natural gas, methanol, or other sources) and oxygen into electricity to power an electric motor, to enhance their competitive positions even in countries without strong requirements that they do so.	automobile_industry
+Highway accidents create a distressing toll of fatalities and injuries wherever there is widespread use of automobiles.	automobile_industry
+Each year there are hundreds of thousands of motor vehicle fatalities worldwide and more than 40,000 in the United States alone.	automobile_industry
+The social and economic cost of such accidents is incalculable.	not
+Efforts to improve highway safety have been successful in most countries, but a reduction in the ratio of fatalities and injuries per distance traveled is often offset by increases in numbers of accidents because of the ever-growing use of motor vehicles.	automobile_industry
+Safety features such as seat belts and air bags that inflate on impact have become standard features in cars and passenger trucks since the 1960s (see vehicular safety devices).	automobile_industry
+Today many vehicles are equipped with multiple air bags to protect occupants in side-impact and rollover accidents as well as frontal crashes.	automobile_industry
+The desire to reduce fatalities and to conserve fuel has led policy makers to focus on speed limits.	automobile_industry
+Most countries of the world have set speed limits ranging from about 65 km (40 miles) per hour in some island nations to 120–130 km (75–80 miles) per hour in many European countries.	automobile_industry
+In some parts of the world, such as areas of Germany, India, and the Philippines, speed limits traditionally are not prescribed.	automobile_industry
+In 2000, British policy makers and government researchers debated a controversial proposal to equip new cars with a speed-control device that would use global positioning satellites to track a vehicle’s location and, in conjunction with an onboard digital road map, cut off the car’s fuel supply if local speed limits were exceeded.	automobile_industry
+Motorcycle, any two-wheeled or, less commonly, three-wheeled motor vehicle, usually propelled by an internal-combustion engine.	not
+Just as the automobile was the answer to the 19th-century dream of self-propelling the horse-drawn carriage, the invention of the motorcycle created the self-propelled bicycle.	not
+The first commercial design was a three-wheeler built by Edward Butler in Great Britain in 1884.	not
+It employed a horizontal single-cylinder gasoline engine mounted between two steerable front wheels and connected by a drive chain to the rear wheel.	not
+By 1900 many manufacturers were converting bicycles—or pedal cycles, as they were sometimes called—by adding small, centrally mounted spark ignition engines.	not
+The need for reliable constructions led to road motorcycle trial tests and competition between manufacturers.	not
+The original Tourist Trophy motorcycle races were held on the Isle of Man in 1907 as reliability or endurance races.	not
+Such events have been the proving ground for many new ideas from early two-stroke-cycle designs to supercharged, multivalve engines mounted on aerodynamic, carbon-fibre reinforced bodywork.	not
+Motorcycles are produced with both two-stroke- and four-stroke-cycle engines and with up to four cylinders.	not
+Most are air-cooled, though a few are water-cooled.	not
+Engines are generally limited to displacements of about 1,800 cc.	not
+The smallest designs, termed mopeds (from “motor pedal”), have very small engines (50 cc) with fuel economies of as much as 2.4 litres per 100 km (100 miles per gallon).	not
+Such units are not permitted on limited-access public roads because of their low speed capability.	not
+In order of increasing power capacity and engine displacements, the other five classifications are child bikes, trail bikes, road bikes, touring bikes, and racing bikes.	not
+A subcategory of racing bikes is known as superbikes.	not
+These are motorcycles that displace more than 900 cc and in which the seat is tilted forward so that the rider is hunched over the frame, creating a more aerodynamic profile.	not
+The motorcycle frame is often of steel, usually a combination of tubes and sheets.	not
+The wheels are generally aluminum or steel rims with spokes, although some cast wheels are used.	not
+Graphite, composite, and magnesium parts are increasingly in use because of their high strength-to-weight characteristics.	not
+Tires are similar to those used on automobiles but are smaller and rounded to permit leaning to lower the centre of gravity in a turn without losing traction.	not
+The gyroscopic effect of motorcycle wheels rotating at high speed significantly improves stability and cornering ability.	not
+Inertia and steering geometry are also significant factors.	not
+Front-wheel suspension is provided by coil springs on a telescopic fork; rear-wheel springs are often mounted on shock absorbers similar to those used in automobiles.	not
+Transmissions on motorcycles typically have four to six speeds, although small bikes may have as few as two.	not
+Power is normally transmitted to the rear-wheel sprockets by a chain, though occasionally belts or shafts are used.	not
+The clutch and throttle, which control engine speed, are operated by twist-type controls on the handgrips.	not
+The front-wheel brake is controlled by a lever near the handgrip; the rear-wheel brake is engaged by a foot pedal.	not
+Except on very small machines, the front brake is usually of the hydraulic disc type.	not
+The rear brake may be disc or drum.	not
+The kick starter has been mostly replaced by an electric push-button starter.	not
+Tailpipe emissions standards for motorcycles continue to be strengthened.	not
+In 1980 the U.S. Environmental Protection Agency (EPA) first regulated new motorcycle hydrocarbon emissions, requiring motorcycles to emit less than 5.0 grams per km (0.3 ounce per mile) of highway driving.	not
+California and the European Union (EU) imposed stricter limits on hydrocarbons and added restrictions on nitric oxides and carbon monoxide.	not
+In 2006 emissions from new motorcycles sold in the United States were limited to a combined 1.4 grams of hydrocarbons and nitric oxides and 12.0 grams of carbon monoxide per km.	not
+The EPA decreased the limit on combined emissions of hydrocarbons and nitric oxides to 0.8 gram in 2010.	not
+The EU reduced emissions from new motorcycles in 2004 to 1.0 gram of hydrocarbons, 0.3 gram of nitric oxides, and 5.5 grams of carbon monoxide per km; in 2007 these levels were further reduced to 0.3 gram of hydrocarbons, 0.15 gram of nitric oxides, and 2.0 grams of carbon monoxide per km.	not
+The EU did a further emission reduction in 2016 to 0.17 gram of hydrocarbons, 0.09 gram of nitric oxides, and 1.14 grams of carbon monoxide, with a further reduction to 0.1 gram of hydrocarbons, 0.06 gram of nitric oxides, and 1 gram of carbon monoxide planned for 2020.	not
+Although U.S. limits for carbon monoxide were not lowered by law, the required reductions in other pollutants effectively lowered carbon monoxide emissions in fact.	not
+In order to meet these “clean-air regulations,” manufacturers installed more sophisticated catalytic converters and fuel-injection systems.	not

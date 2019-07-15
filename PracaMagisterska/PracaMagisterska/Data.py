@@ -53,7 +53,7 @@ from DataConverter import Converter
 #    data = Converter.merge_datasets(data_train, data_test)
 #    if data is not None:
 #        print("data: ", len(data))
-#        result = Converter.save_file(".\\datasets\\movie_review\\reviews.txt", data, '\t')
+#        result = Converter.save_file(".\\datasets\\movie_reviews\\reviews.txt", data, '\t')
 #        print("File reviews.txt was saved: ", result)
 
 
@@ -66,8 +66,6 @@ from DataConverter import Converter
 
 
 # Clothing Fit Data - Rent The Runway
-# everyday 16822
-# work 15042
 # w edytorze tekstowym zamień "}" na "}," , dodaj na początku pliku przed pierwszym "{" znak "[" , przy ostatnim znaku "}," usuń "," i dodaj "]" , zapisz plik
 #data = Converter.loadJSON(r"D:\Zbiory danych\Clothing Fit Data\renttherunway_final_data_copy.json", "review_text", "rented for", ["everyday", "work"])
 #if data is not None:
@@ -83,3 +81,43 @@ from DataConverter import Converter
 #    print("data: ", len(data))
 #    result = Converter.save_file(".\\datasets\\blog_authorship_corpus\\blog.txt", data, '\t')
 #    print("File blog.txt was saved: ", result)
+
+
+# Automotive
+#data = Converter.load_automotive(r"D:\Zbiory danych\Automotive\classify auto.json")
+#if data is not None:
+#    print("data: ", len(data))
+#    result = Converter.save_file(".\\datasets\\automotive\\classify_auto.txt", data, '\t')
+#    print("File classify_auto.txt was saved: ", result)
+
+
+# Company Review Sentence
+#data = Converter.load_company_review_sentence(r"D:\Zbiory danych\Company Review Sentence\Company Review Sentence Classification.json")
+#if data is not None:
+#    print("data: ", len(data))
+#    result = Converter.save_file(".\\datasets\\company_review_sentence\\company_sentence.txt", data, '\t')
+#    print("File company_sentence.txt was saved: ", result)
+
+
+# IMDB Movie Genre
+#data = Converter.load_imdb_movie_genre(r"D:\Zbiory danych\IMBD Movie Genre\IMDB Movie Genre Dataset.json")
+#if data is not None:
+#    print("data: ", len(data))
+#    result = Converter.save_file(".\\datasets\\imdb_movie_genre\\imdb_movies.txt", data, '\t')
+#    print("File imdb_movies.txt was saved: ", result)
+
+
+# Indian Politics News 2018
+#data = Converter.loadCSV(r"D:\Zbiory danych\Indian Politics News 2018\politics18.csv", ',', "content", "author", ["The Quint", "PTI"])
+#if data is not None:
+#    print("data: ", len(data))
+#    result = Converter.save_file(".\\datasets\\indian_politics_news_2018\\indian_politics_news.txt", data, '\t')
+#    print("File indian_politics_news.txt was saved: ", result)
+
+
+# E-commerce Reviews
+#data = Converter.loadCSV(r"D:\Zbiory danych\\Ecommerce review\\Womens Clothing E-Commerce Reviews.csv", ',', "Review Text", "Class Name", ["Dresses", "Knits"])
+#if data is not None:
+#    print("data: ", len(data))
+#    result = Converter.save_file(".\\datasets\\ecommerce_reviews\\ecommerce_reviews.txt", data, '\t')
+#    print("File ecommerce_reviews.txt was saved: ", result)

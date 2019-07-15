@@ -1,6 +1,7 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 
 
+#SOURCE: http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm
 class BlogAuthorshipCorpusDataset(DatasetLoader):
 
     @staticmethod

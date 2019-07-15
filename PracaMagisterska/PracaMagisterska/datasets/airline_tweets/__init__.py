@@ -1,6 +1,7 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 
 
+# SOURCE: https://www.kaggle.com/crowdflower/twitter-airline-sentiment#Tweets.csv
 class AirlineTweetsDataset(DatasetLoader):
 
     @staticmethod
