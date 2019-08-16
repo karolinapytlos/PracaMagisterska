@@ -1,9 +1,8 @@
 import math
 
+class Transformations:
 
-class BagOfWords:
-
-    def __count_word_in_sequence (self, word, sequence):
+    def __count_word_in_sequence (word, sequence):
         counter = 0
         for item in sequence:
             if item == word:
@@ -12,7 +11,7 @@ class BagOfWords:
         return counter
 
 
-    def __check_word_in_sequence (self, word, sequence):
+    def __check_word_in_sequence (word, sequence):
         for item in sequence:
             if item == word:
                 return True
@@ -20,15 +19,15 @@ class BagOfWords:
         return False
 
 
-    def __tf (self, word, sequence):
-        return self.__count_word_in_sequence(word, sequence) / len(sequence)
+    def __tf (word, sequence):
+        return Transformations.__count_word_in_sequence(word, sequence) / len(sequence)
 
 
-    def __idf (self, word_occurrence, len_dataset):
+    def __idf (word_occurrence, len_dataset):
         return math.log10(len_dataset / word_occurrence)
 
-
-    def convert_to_bow_vectors (self, dataset):
+    @staticmethod
+    def convert_to_bow_vectors (dataset):
         vectors = []
         if type(dataset) is list:
             # 1. Get all unique words
@@ -45,15 +44,15 @@ class BagOfWords:
             for sequence in dataset:
                 vector = []
                 for word in words:
-                    count = self.__count_word_in_sequence(word, sequence)
+                    count = Transformations.__count_word_in_sequence(word, sequence)
                     vector.append(count)
 
                 vectors.append(vector)
 
         return vectors
 
-
-    def convert_to_tfidf_vectors (self, dataset):
+    @staticmethod
+    def convert_to_tfidf_vectors (dataset):
         vectors = []
         if type(dataset) is list:
             # 1. Get all unique words
@@ -71,7 +70,7 @@ class BagOfWords:
             for word in words:
                 counter = 0
                 for sequence in dataset:
-                    if self.__check_word_in_sequence(word, sequence):
+                    if Transformations.__check_word_in_sequence(word, sequence):
                         counter = counter + 1
 
                 word_in_document.append((word, counter))
@@ -81,8 +80,8 @@ class BagOfWords:
                 for sequence in dataset:
                     vector = []
                     for word, occurrence in word_in_document:
-                        tf = self.__tf(word, sequence)
-                        idf = self.__idf(occurrence, len(dataset))
+                        tf = Transformations.__tf(word, sequence)
+                        idf = Transformations.__idf(occurrence, len(dataset))
                         vector.append(tf * idf)
 
                     vectors.append(vector)

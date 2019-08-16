@@ -1,465 +1,69 @@
-from SimilarityForest import SimilarityForest
-from sklearn.model_selection import train_test_split
 import Functions as fn
-import Transformations as ts
 
-from datasets.airline_tweets import AirlineTweetsDataset
-from datasets.blog_authorship_corpus import BlogAuthorshipCorpusDataset
-from datasets.clothing_fit_data import ClothingFitDataset
-from datasets.jeopardy_questions import JeopardyQuestionsDataset
-from datasets.movie_reviews import MovieReviewsDataset
-from datasets.sms_spam_collection import SmsSpamCollectionDataset
-from datasets.social_recommendation_data import SocialRecommendationDataset
-from datasets.automotive import AutomotiveDataset
-from datasets.company_review_sentence import CompanyReviewSentenceDataset
-from datasets.imdb_movie_genre import IMDBMovieGenreDataset
-from datasets.indian_politics_news_2018 import IndianPoliticsNews2018Dataset
-from datasets.ecommerce_reviews import EcommerceReviewsDataset
+from datasets.airline_tweets.run import AirlineTweets
+from datasets.automotive.run import Automotive
+from datasets.blog_authorship_corpus.run import BlogAuthorshipCorpus
+from datasets.clothing_fit_data.run import ClothingFit
+from datasets.company_review_sentence.run import CompanyReviews
+from datasets.ecommerce_reviews.run import EcommerceReviews
+from datasets.imdb_movie_genre.run import ImdbMoviesGenre
+from datasets.indian_politics_news_2018.run import IndianPoliticsNews
+from datasets.jeopardy_questions.run import JeopardyQuestions
+from datasets.movie_reviews.run import MovieReviews
+from datasets.sms_spam_collection.run import SmsSpam
+from datasets.social_recommendation_data.run import SocialRecommendation
 
-n_trees = 5
+
+n_trees = 10
 n_pairs = 3
-bag = ts.BagOfWords()
+similarity_function = fn.cosine_similarity
 test_size = 0.20
 
-# TEST AirlineTweetsDataset
-#print(" ---- AirlineTweetsDataset ---- ")
-#dataset = AirlineTweetsDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
 
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
+#airline_tweets = AirlineTweets(n_trees, n_pairs, similarity_function, test_size)
+#airline_tweets.run_bag_of_words()
+#airline_tweets.run_tf_idf()
 
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
+#automotive = Automotive(n_trees, n_pairs, similarity_function, test_size)
+#automotive.run_bag_of_words()
+#automotive.run_tf_idf()
 
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
+#blog_authorship_corpus = BlogAuthorshipCorpus(n_trees, n_pairs, similarity_function, test_size)
+#blog_authorship_corpus.run_bag_of_words()
+#blog_authorship_corpus.run_tf_idf()
 
-#sf.fit(X_train, y_train)
+#clothing_fit = ClothingFit(n_trees, n_pairs, similarity_function, test_size)
+#clothing_fit.run_bag_of_words()
+#clothing_fit.run_tf_idf()
 
-#sf.predict(X_test)
+#company_reviews = CompanyReviews(n_trees, n_pairs, similarity_function, test_size)
+#company_reviews.run_bag_of_words()
+#company_reviews.run_tf_idf()
 
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
+#ecommerce_reviews = EcommerceReviews(n_trees, n_pairs, similarity_function, test_size)
+#ecommerce_reviews.run_bag_of_words()
+#ecommerce_reviews.run_tf_idf()
 
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
+#imdb_movies_genre = ImdbMoviesGenre(n_trees, n_pairs, similarity_function, test_size)
+#imdb_movies_genre.run_bag_of_words()
+#imdb_movies_genre.run_tf_idf()
 
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
+#indian_politics_news = IndianPoliticsNews(n_trees, n_pairs, similarity_function, test_size)
+#indian_politics_news.run_bag_of_words()
+#indian_politics_news.run_tf_idf()
 
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
+#jeopardy_questions = JeopardyQuestions(n_trees, n_pairs, similarity_function, test_size)
+#jeopardy_questions.run_bag_of_words()
+#jeopardy_questions.run_tf_idf()
 
-#sf.fit(X_train, y_train)
+#movie_reviews = MovieReviews(n_trees, n_pairs, similarity_function, test_size)
+#movie_reviews.run_bag_of_words()
+#movie_reviews.run_tf_idf()
 
-#sf.predict(X_test)
+#sms_spam = SmsSpam(n_trees, n_pairs, similarity_function, test_size)
+#sms_spam.run_bag_of_words()
+#sms_spam.run_tf_idf()
 
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST BlogAuthorshipCorpusDataset
-#print(" ---- BlogAuthorshipCorpusDataset ---- ")
-#dataset = BlogAuthorshipCorpusDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST ClothingFitDataset
-#print(" ---- ClothingFitDataset ---- ")
-#dataset = ClothingFitDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST JeopardyQuestionsDataset
-#print(" ---- JeopardyQuestionsDataset ---- ")
-#dataset = JeopardyQuestionsDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST MovieReviewsDataset
-#print(" ---- MovieReviewsDataset ---- ")
-#dataset = MovieReviewsDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST SmsSpamCollectionDataset
-#print(" ---- SmsSpamCollectionDataset ---- ")
-#dataset = SmsSpamCollectionDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST SocialRecommendationDataset
-#print(" ---- SocialRecommendationDataset ---- ")
-#dataset = SocialRecommendationDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST AutomotiveDataset
-#print(" ---- AutomotiveDataset ---- ")
-#dataset = AutomotiveDataset.load_data("classify_auto.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST CompanyReviewSentenceDataset
-#print(" ---- CompanyReviewSentenceDataset ---- ")
-#dataset = CompanyReviewSentenceDataset.load_data("company_sentence.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST IMDBMovieGenreDataset
-#print(" ---- IMDBMovieGenreDataset ---- ")
-#dataset = IMDBMovieGenreDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST IndianPoliticsNews2018Dataset
-#print(" ---- IndianPoliticsNews2018Dataset ---- ")
-#dataset = IndianPoliticsNews2018Dataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-
-# TEST EcommerceReviewsDataset
-#print(" ---- EcommerceReviewsDataset ---- ")
-#dataset = EcommerceReviewsDataset.load_data("sample.txt")
-#print("dataset.X: ", len(dataset.X))
-#print("dataset.y: ", len(dataset.y))
-
-#print(" ---- bag of words ---- ")
-#bag_vectors = bag.convert_to_bow_vectors(dataset.X)
-#print("bag_vectors: ", len(bag_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(bag_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
-
-#print(" ---- tf-idf ---- ")
-#tfidf_vectors = bag.convert_to_tfidf_vectors(dataset.X)
-#print("tfidf_vectors: ", len(tfidf_vectors))
-
-#X_train, X_test, y_train, y_test = train_test_split(tfidf_vectors, dataset.y, test_size=test_size)
-
-#sf = SimilarityForest(n_trees, fn.cosine_similarity, n_pairs)
-
-#sf.fit(X_train, y_train)
-
-#sf.predict(X_test)
-
-#matrix = sf.get_confusion_matrix(y_test)
-#print(matrix)
+#social_recommendation = SocialRecommendation(n_trees, n_pairs, similarity_function, test_size)
+#social_recommendation.run_bag_of_words()
+#social_recommendation.run_tf_idf()

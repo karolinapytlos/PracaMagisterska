@@ -23,15 +23,62 @@
   <ItemGroup>
     <Compile Include="Data.py" />
     <Compile Include="DataConverter.py" />
+    <Compile Include="DataPreprocessing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\airline_tweets\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\airline_tweets\__init__.py" />
+    <Compile Include="datasets\automotive\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\automotive\__init__.py" />
+    <Compile Include="datasets\blog_authorship_corpus\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\blog_authorship_corpus\__init__.py" />
+    <Compile Include="datasets\clothing_fit_data\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\clothing_fit_data\__init__.py" />
+    <Compile Include="datasets\company_review_sentence\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\company_review_sentence\__init__.py" />
+    <Compile Include="datasets\ecommerce_reviews\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\ecommerce_reviews\__init__.py" />
     <Compile Include="datasets\heart\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="datasets\imdb_movie_genre\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\imdb_movie_genre\__init__.py" />
+    <Compile Include="datasets\indian_politics_news_2018\run.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\indian_politics_news_2018\__init__.py" />
+    <Compile Include="datasets\InitiateDataset.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="datasets\jeopardy_questions\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\jeopardy_questions\__init__.py" />
+    <Compile Include="datasets\movie_reviews\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\movie_reviews\__init__.py" />
+    <Compile Include="datasets\sms_spam_collection\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\sms_spam_collection\__init__.py" />
+    <Compile Include="datasets\social_recommendation_data\run.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\social_recommendation_data\__init__.py" />
     <Compile Include="datasets\utils.py" />
     <Compile Include="datasets\__init__.py">
@@ -42,38 +89,41 @@
     </Compile>
     <Compile Include="heart_test.py" />
     <Compile Include="PracaMagisterska.py" />
-    <Compile Include="SimilarityForest.py" />
-    <Compile Include="Transformations.py">
+    <Compile Include="SimilarityForestClassifier.py" />
+    <Compile Include="DataTransformations.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="datasets\" />
     <Folder Include="datasets\airline_tweets\" />
+    <Folder Include="datasets\automotive\" />
     <Folder Include="datasets\blog_authorship_corpus\" />
     <Folder Include="datasets\clothing_fit_data\" />
+    <Folder Include="datasets\company_review_sentence\" />
+    <Folder Include="datasets\ecommerce_reviews\" />
     <Folder Include="datasets\heart\" />
+    <Folder Include="datasets\imdb_movie_genre\" />
+    <Folder Include="datasets\indian_politics_news_2018\" />
     <Folder Include="datasets\jeopardy_questions\" />
     <Folder Include="datasets\movie_reviews\" />
     <Folder Include="datasets\sms_spam_collection\" />
     <Folder Include="datasets\social_recommendation_data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="datasets\airline_tweets\sample.txt" />
     <Content Include="datasets\airline_tweets\tweets.txt" />
+    <Content Include="datasets\automotive\classify_auto.txt" />
     <Content Include="datasets\blog_authorship_corpus\blog.txt" />
-    <Content Include="datasets\blog_authorship_corpus\sample.txt" />
     <Content Include="datasets\clothing_fit_data\renttherunway.txt" />
-    <Content Include="datasets\clothing_fit_data\sample.txt" />
+    <Content Include="datasets\company_review_sentence\company_sentence.txt" />
+    <Content Include="datasets\ecommerce_reviews\ecommerce_reviews.txt" />
     <Content Include="datasets\heart\heart_scale" />
+    <Content Include="datasets\imdb_movie_genre\imdb_movies.txt" />
+    <Content Include="datasets\indian_politics_news_2018\indian_politics_news.txt" />
     <Content Include="datasets\jeopardy_questions\questions.txt" />
-    <Content Include="datasets\jeopardy_questions\sample.txt" />
     <Content Include="datasets\movie_reviews\reviews.txt" />
-    <Content Include="datasets\movie_reviews\sample.txt" />
-    <Content Include="datasets\sms_spam_collection\sample.txt" />
     <Content Include="datasets\sms_spam_collection\sms_spam.txt" />
     <Content Include="datasets\social_recommendation_data\recommendation.txt" />
-    <Content Include="datasets\social_recommendation_data\sample.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
