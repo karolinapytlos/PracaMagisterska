@@ -1,12 +1,13 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 from DataPreprocessing import Preprocessing
+from ..DataType import Type
 
 
 # SOURCE: http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm
 class BlogAuthorshipCorpusDataset(DatasetLoader):
 
     @staticmethod
-    def load_data (clear_data, data_sample, n_samples, n_samples_for_class, name='BlogAuthorshipCorpus'):
+    def load_data (data_type, clear_data, data_sample, n_samples, n_samples_for_class, name='BlogAuthorshipCorpus'):
         data = []
         with open(BlogAuthorshipCorpusDataset.get_dataset_file(['blog_authorship_corpus', "blog.txt"]), "r", encoding="utf8") as f:
             lines = f.readlines()
@@ -22,6 +23,10 @@ class BlogAuthorshipCorpusDataset(DatasetLoader):
 
         if data_sample == True:
             data = BlogAuthorshipCorpusDataset.sampled_data(data, n_samples, n_samples_for_class)
+
+        if data_type == Type.text:
+            X, y = BlogAuthorshipCorpusDataset.get_text_data(data)
+            return Dataset(X, y, name)
 
         X, y = get_X_y(data)
         return Dataset(X, y, name)

@@ -70,12 +70,12 @@ class SimilarityForest:
     def fit (self, trainDataset, classDataset):
         print(" ---- START FIT function ---- ")
         for n in range(self.__nTrees):
-            print(" \t---- START TREE: ", n, " ---- ")
+            print(" \t---- START TREE: ", (n +1), " ---- ")
             treeSamples, treeClasses = self.__generateSubset(trainDataset, classDataset)
             tree = Tree(treeSamples, treeClasses, self.__similarityFunction, self.__nPairObjects)
             tree.create_tree()
             self.__trees.append(tree.get_tree())
-            print(" \t---- END TREE: ", n, " ---- ")
+            print(" \t---- END TREE: ", (n +1), " ---- ")
         print(" ---- END FIT function ----\n ")
 
 

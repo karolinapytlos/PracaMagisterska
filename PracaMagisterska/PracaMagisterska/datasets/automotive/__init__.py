@@ -1,12 +1,13 @@
 from ..utils import DatasetLoader, Dataset, get_X_y
 from DataPreprocessing import Preprocessing
+from ..DataType import Type
 
 
 # SOURCE: https://dataturks.com/projects/markus.radtke/classify%20auto
 class AutomotiveDataset(DatasetLoader):
 
     @staticmethod
-    def load_data (clear_data, data_sample, n_samples, n_samples_for_class, name='Automotive'):
+    def load_data (data_type, clear_data, data_sample, n_samples, n_samples_for_class, name='Automotive'):
         data = []
         with open(AutomotiveDataset.get_dataset_file(['automotive', "classify_auto.txt"]), "r", encoding="utf8") as f:
             lines = f.readlines()
@@ -22,6 +23,10 @@ class AutomotiveDataset(DatasetLoader):
 
         if data_sample == True:
             data = AutomotiveDataset.sampled_data(data, n_samples, n_samples_for_class)
+
+        if data_type == Type.text:
+            X, y = AutomotiveDataset.get_text_data(data)
+            return Dataset(X, y, name)
 
         X, y = get_X_y(data)
         return Dataset(X, y, name)

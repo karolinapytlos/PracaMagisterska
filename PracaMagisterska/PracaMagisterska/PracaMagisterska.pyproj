@@ -46,6 +46,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="datasets\company_review_sentence\__init__.py" />
+    <Compile Include="datasets\DataType.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\ecommerce_reviews\run.py">
       <SubType>Code</SubType>
     </Compile>

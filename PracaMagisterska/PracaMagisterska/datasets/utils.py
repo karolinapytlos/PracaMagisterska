@@ -11,7 +11,7 @@ class DatasetLoader:
         raise NotImplementedError()
 
     @staticmethod
-    def load_data(clear_data, data_sample, n_samples, n_samples_for_class, name):
+    def load_data(data_type, clear_data, data_sample, n_samples, n_samples_for_class, name):
         raise NotImplementedError()
 
     @staticmethod
@@ -36,6 +36,17 @@ class DatasetLoader:
             samples = sample(dataset, n_samples)
 
         return samples
+
+    @staticmethod
+    def get_text_data(data):
+        X = []
+        y = []
+        if type(data) is list:
+            for item in data:
+                if type(item) is tuple:
+                    X.append(item[0])
+                    y.append(item[1])
+        return X, y
 
 
 class Dataset:
