@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ce8d5af8-43ac-45bf-bc2a-805d8334eeec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PracaMagisterska.py</StartupFile>
+    <StartupFile>DatasetsStatistics.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="Data.py" />
     <Compile Include="DataConverter.py" />
     <Compile Include="DataPreprocessing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DatasetsStatistics.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="datasets\airline_tweets\run.py">
@@ -46,6 +49,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="datasets\company_review_sentence\__init__.py" />
+    <Compile Include="DataStatistics.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="datasets\DataType.py">
       <SubType>Code</SubType>
     </Compile>
@@ -96,6 +102,15 @@
     <Compile Include="DataTransformations.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="transformations\bag_of_words.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="transformations\n_grams.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="transformations\tf_idf.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="datasets\" />
@@ -112,6 +127,7 @@
     <Folder Include="datasets\movie_reviews\" />
     <Folder Include="datasets\sms_spam_collection\" />
     <Folder Include="datasets\social_recommendation_data\" />
+    <Folder Include="transformations\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="datasets\airline_tweets\tweets.txt" />

@@ -1,4 +1,4 @@
-from SimilarityForest import SimilarityForest
+from SimilarityForestClassifier import SimilarityForest
 from datasets.heart import HeartDataset as hds
 from sklearn.model_selection import train_test_split
 import numpy as np

@@ -7,7 +7,7 @@ from ..DataType import Type
 class AirlineTweetsDataset(DatasetLoader):
 
     @staticmethod
-    def load_data (data_type, clear_data, data_sample, n_samples, n_samples_for_class, name='AirlineTweets'):
+    def load_data (data_type, clear_data, data_sample=False, n_samples=0, n_samples_for_class=False, name='Airline tweets'):
         data = []
         with open(AirlineTweetsDataset.get_dataset_file(['airline_tweets', "tweets.txt"]), "r", encoding="utf8") as f:
             lines = f.readlines()
@@ -19,6 +19,8 @@ class AirlineTweetsDataset(DatasetLoader):
                             sequence = Preprocessing.deleteUrls(sequence)
                             sequence = Preprocessing.deleteHtmlEntities(sequence)
                             sequence = Preprocessing.deleteHtmlTags(sequence)
+                            sequence = Preprocessing.deletePunctuation(sequence)
+                            sequence = Preprocessing.deleteMultipleSpaces(sequence)
                         data.append((sequence.strip(), label))
 
         if data_sample == True:

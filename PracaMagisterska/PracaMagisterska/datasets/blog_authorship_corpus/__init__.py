@@ -7,7 +7,7 @@ from ..DataType import Type
 class BlogAuthorshipCorpusDataset(DatasetLoader):
 
     @staticmethod
-    def load_data (data_type, clear_data, data_sample, n_samples, n_samples_for_class, name='BlogAuthorshipCorpus'):
+    def load_data (data_type, clear_data, data_sample=False, n_samples=0, n_samples_for_class=False, name='Blog authorship corpus'):
         data = []
         with open(BlogAuthorshipCorpusDataset.get_dataset_file(['blog_authorship_corpus', "blog.txt"]), "r", encoding="utf8") as f:
             lines = f.readlines()
@@ -19,6 +19,8 @@ class BlogAuthorshipCorpusDataset(DatasetLoader):
                             sequence = Preprocessing.deleteUrls(sequence)
                             sequence = Preprocessing.deleteHtmlEntities(sequence)
                             sequence = Preprocessing.deleteHtmlTags(sequence)
+                            sequence = Preprocessing.deletePunctuation(sequence)
+                            sequence = Preprocessing.deleteMultipleSpaces(sequence)
                         data.append((sequence.strip(), label))
 
         if data_sample == True:

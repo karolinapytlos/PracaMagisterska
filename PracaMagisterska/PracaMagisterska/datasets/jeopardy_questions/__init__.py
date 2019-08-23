@@ -7,7 +7,7 @@ from ..DataType import Type
 class JeopardyQuestionsDataset(DatasetLoader):
 
     @staticmethod
-    def load_data (data_type, clear_data, data_sample, n_samples, n_samples_for_class, name='JeopardyQuestions'):
+    def load_data (data_type, clear_data, data_sample=False, n_samples=0, n_samples_for_class=False, name='Jeopardy questions'):
         data = []
         with open(JeopardyQuestionsDataset.get_dataset_file(['jeopardy_questions', "questions.txt"]), "r", encoding="utf8") as f:
             lines = f.readlines()
@@ -19,6 +19,8 @@ class JeopardyQuestionsDataset(DatasetLoader):
                             sequence = Preprocessing.deleteUrls(sequence)
                             sequence = Preprocessing.deleteHtmlEntities(sequence)
                             sequence = Preprocessing.deleteHtmlTags(sequence)
+                            sequence = Preprocessing.deletePunctuation(sequence)
+                            sequence = Preprocessing.deleteMultipleSpaces(sequence)
                         data.append((sequence.strip(), label))
 
         if data_sample == True:

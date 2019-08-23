@@ -60,13 +60,15 @@ def get_X_y(data):
     vectorizer = CountVectorizer(analyzer="word",
                                  tokenizer=None,
                                  preprocessor=None,
-                                 stop_words=None,
-                                 token_pattern=r'\b\w+\b')
+                                 stop_words=None)
     docs = [x[0] for x in data]
     vectorizer.fit(docs)
 
     integers_from_strings = [[vectorizer.vocabulary_.get(y.lower()) for y in re.sub(r'[.!,;?]', ' ', x).split() if
                               vectorizer.vocabulary_.get(y.lower()) is not None] for x in docs]
+
+    print("len(vectorizer.get_feature_names()): ", len(vectorizer.get_feature_names()))
+    print("len(vectorizer.vocabulary_): ", len(vectorizer.vocabulary_))
 
     labels = [x[1] for x in data]
     for index, item in enumerate(integers_from_strings):

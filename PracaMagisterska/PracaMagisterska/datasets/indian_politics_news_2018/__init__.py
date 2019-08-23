@@ -7,7 +7,7 @@ from ..DataType import Type
 class IndianPoliticsNews2018Dataset(DatasetLoader):
 
     @staticmethod
-    def load_data (data_type, clear_data, data_sample, n_samples, n_samples_for_class, name='IndianPoliticsNews2018'):
+    def load_data (data_type, clear_data, data_sample=False, n_samples=0, n_samples_for_class=False, name='Indian politics news'):
         data = []
         with open(IndianPoliticsNews2018Dataset.get_dataset_file(['indian_politics_news_2018', "indian_politics_news.txt"]), "r", encoding="utf8") as f:
             lines = f.readlines()
@@ -19,6 +19,8 @@ class IndianPoliticsNews2018Dataset(DatasetLoader):
                             sequence = Preprocessing.deleteUrls(sequence)
                             sequence = Preprocessing.deleteHtmlEntities(sequence)
                             sequence = Preprocessing.deleteHtmlTags(sequence)
+                            sequence = Preprocessing.deletePunctuation(sequence)
+                            sequence = Preprocessing.deleteMultipleSpaces(sequence)
                         data.append((sequence.strip(), label))
 
         if data_sample == True:

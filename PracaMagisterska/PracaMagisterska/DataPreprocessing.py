@@ -4,15 +4,24 @@ class Preprocessing:
 
     @staticmethod
     def deleteHtmlTags(text):
-        return re.sub('<[^>]*>', '', text)
+        return re.sub(r'<[^>]*>', '', text)
 
     @staticmethod
     def deleteNonWordChars(text):
-        return re.sub('[\W]+', ' ', text.lower())
+        return re.sub(r'[\W]+', ' ', text.lower())
 
     @staticmethod
     def deleteUrls(text):
-        return re.sub('(https{0,1}://).[^\s]+', '', text)
+        return re.sub(r'(https{0,1}://).[^\s]+', '', text)
 
+    @staticmethod
     def deleteHtmlEntities(text):
-        return re.sub('&[#]{0,1}\w{1,}[;]', '', text);
+        return re.sub(r'&[#]{0,1}\w{1,}[;]', '', text)
+
+    @staticmethod
+    def deletePunctuation(text):
+        return re.sub(r'[.!,;?]', ' ', text)
+
+    @staticmethod
+    def deleteMultipleSpaces(text):
+        return re.sub(r' +', ' ', text)
