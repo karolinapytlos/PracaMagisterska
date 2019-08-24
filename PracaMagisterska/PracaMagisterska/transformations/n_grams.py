@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 class NGramsTransformer():
     def __init__(self, n_grams = 2, **kwargs):
-        self.vectorizer = CountVectorizer(ngram_range=(n_grams,n_grams), **kwargs)
+        self.vectorizer = CountVectorizer(ngram_range=(n_grams,n_grams), token_pattern=r'\b\w+\b', **kwargs)
 
     def fit_transform(self, raw_data):
         return self.vectorizer.fit_transform(raw_data).toarray()

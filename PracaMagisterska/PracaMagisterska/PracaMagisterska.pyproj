@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ce8d5af8-43ac-45bf-bc2a-805d8334eeec</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DatasetsStatistics.py</StartupFile>
+    <StartupFile>PracaMagisterska.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

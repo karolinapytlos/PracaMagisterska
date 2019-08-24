@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 class TfIdfTransformer():
     def __init__(self, **kwargs):
-        self.vectorizer = TfidfVectorizer(use_idf=True, **kwargs)
+        self.vectorizer = TfidfVectorizer(use_idf=True, token_pattern=r'\b\w+\b', **kwargs)
 
     def fit_transform(self, raw_data):
         return self.vectorizer.fit_transform(raw_data).toarray()

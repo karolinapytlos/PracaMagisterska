@@ -34,3 +34,11 @@ class Initiate:
         self.__similarity_forest.fit(X_train, y_train)
         self.__similarity_forest.predict(X_test)
         print(self.__similarity_forest.get_confusion_matrix(y_test))
+
+    def run_n_grams (self, range):
+        print(" \n---- N-GRAMS ---- ")
+        ngrams_vectors = Transformations.convert_to_ngrams_vectors(self.__dataset.X, range)
+        X_train, X_test, y_train, y_test = train_test_split(ngrams_vectors, self.__dataset.y, test_size=self.__test_dataset_size)
+        self.__similarity_forest.fit(X_train, y_train)
+        self.__similarity_forest.predict(X_test)
+        print(self.__similarity_forest.get_confusion_matrix(y_test))
