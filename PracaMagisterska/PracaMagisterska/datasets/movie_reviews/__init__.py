@@ -14,6 +14,12 @@ class MovieReviewsDataset(DatasetLoader):
             for line in lines:
                 if "\t" in line:
                     sequence, label = line.replace('\n', '').split('\t')
+                    # change categorical value to numeric
+                    if label == "pos":
+                        label = 1
+                    else:
+                        label = 0
+
                     if sequence is not None and label is not None:
                         if clear_data == True:
                             sequence = Preprocessing.deleteUrls(sequence)

@@ -4,8 +4,11 @@ from scipy.spatial import distance
 import stringdist as sd
 
 
-def cosine_similarity (vectorA, vectorB):
-    return np.dot(vectorA, vectorB) / (math.sqrt(np.dot(vectorA, vectorA)) * math.sqrt(np.dot(vectorB, vectorB)))
+def cosine_distance (vectorA, vectorB):
+    if (math.sqrt(np.dot(vectorA, vectorA)) * math.sqrt(np.dot(vectorB, vectorB))) != 0:
+        return np.dot(vectorA, vectorB) / (math.sqrt(np.dot(vectorA, vectorA)) * math.sqrt(np.dot(vectorB, vectorB)))
+    else:
+        return 0
 
 
 # SOURCE: https://www.geeksforgeeks.org/longest-common-subsequence-dp-4
@@ -32,6 +35,10 @@ def longest_common_subsequence(sequenceA, sequenceB):
 
 def euclidean_distance (vectorA, vectorB):
     return distance.euclidean(vectorA, vectorB)
+
+
+def squared_euclidean_distance (vectorA, vectorB):
+    return distance.sqeuclidean(vectorA, vectorB)
 
 
 def levenshtein_distance (vectorA, vectorB):

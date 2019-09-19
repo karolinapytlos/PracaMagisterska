@@ -98,10 +98,11 @@
     </Compile>
     <Compile Include="heart_test.py" />
     <Compile Include="PracaMagisterska.py" />
-    <Compile Include="SimilarityForestClassifier.py" />
     <Compile Include="DataTransformations.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="SimilarityForestClassifier_old.py" />
+    <Compile Include="similarity_forest_async.py" />
     <Compile Include="transformations\bag_of_words.py">
       <SubType>Code</SubType>
     </Compile>
@@ -111,6 +112,7 @@
     <Compile Include="transformations\tf_idf.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tree_similarity_forest.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="datasets\" />
