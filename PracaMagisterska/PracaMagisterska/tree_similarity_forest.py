@@ -15,7 +15,9 @@ SPLIT_POINT_TYPE = np.dtype([("objectA", np.object), ("objectB", np.object),
                              ("splitPoint", np.float), ("distances", np.object),
                              ("ds", np.object), ("lb", np.object)])
 
-
+# klasa tworząca drzewo
+# polega na rekurencyjnym dzieleniu zbioru danych i tworzeniu kolejnych węzłów,
+# tak aby uzyskać węzły, które zawierają konkretne klasy
 class Tree:
     def __init__(self, dataset, labels, similarityFunc, nPairObjects):
         if type(dataset) is not np.ndarray:
@@ -143,20 +145,18 @@ class Tree:
         node["leaf"] = True
         node["fitClass"] = label
 
-
+    # funkcja generująca punkt podziału zbioru
     def __GetNodeSplitPoint (self, dataset, labels):
         splitPoints = []
         for i in range(self.nPairObjects):
             newSplitPoint = np.empty(1, dtype=SPLIT_POINT_TYPE)
-           
-            # select randomly item from every class
-            # item is type of tuple
-            # item 1 is index, item 2 is class value
+
+            # losowo wybierz dwa punkty ze zbioru danych
             labelsIndexes = self.__ChooseRandomlyTwoIndexesWithDifferentLabels(labels)
 
             randomItems = self.__GetItemsFromDatasetByIndexes(dataset, [item[0] for item in labelsIndexes])
 
-            # calculate distance between items from dataset
+            # wylicz dystans pomiędzy resztą ze zbioru danych, a dwoma wcześniej wybranymi punktami
             distances = self.__CalculateDistancesBetweenChosenItemsAndItemsFromDataset(dataset, randomItems)
 
             ds = []
@@ -165,6 +165,7 @@ class Tree:
                 ds.append(dataset[item[0]])
                 lb.append(labels[item[0]])
 
+            # dla każdego możliwego przedziału wylicz ważony Index Gini
             gini = []
             for index in range(len(lb) - 1):
                 gini.append(self.__CalculateWeightedGiniQuality(lb[:index + 1], lb[index + 1:]))
@@ -186,6 +187,7 @@ class Tree:
         gini = None
 
         if len(splitPoints) > 0:
+            # punkt podziału będzie tam, gdzie najmniejsza jego wartość
             return min(splitPoints, key=lambda x: x["splitPoint"])
         else:
             return None
@@ -216,7 +218,7 @@ class Tree:
         occurrences = []
         for label in set(node):
             occurrences.append((label, len([i for i in (item for item in node if label == item)])))
-        # calculate value of gini index
+        # calculate gini index
         probability = 1
         for item in occurrences:
             probability = probability - math.pow((item[1] / len(node)), 2)

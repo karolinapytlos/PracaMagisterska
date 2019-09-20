@@ -26,10 +26,10 @@ if __name__ == "__main__":
 
     airline_tweets = AirlineTweets(n_trees, n_pairs, similarity_functions[0], test_size)
     airline_tweets.run_bag_of_words()
-    airline_tweets_text = AirlineTweets(n_trees, n_pairs, similarity_functions[3], test_size, data_type=Type.text)
-    airline_tweets_text.run_text()
-    airline_tweets_ngrams = AirlineTweets(n_trees, n_pairs, similarity_functions[0], test_size)
-    airline_tweets_ngrams.run_n_grams(2)
+    #airline_tweets_text = AirlineTweets(n_trees, n_pairs, similarity_functions[3], test_size, data_type=Type.text)
+    #airline_tweets_text.run_text()
+    #airline_tweets_ngrams = AirlineTweets(n_trees, n_pairs, similarity_functions[0], test_size)
+    #airline_tweets_ngrams.run_n_grams(2)
 
 
     #automotive = Automotive(n_trees, n_pairs, similarity_functions[0], test_size)
